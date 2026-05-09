@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SHIFT-Framework — White Paper V7 · Mindshift KI</title>
+<meta name="description" content="Das SHIFT-Framework: KI-Einführungen nach dem Prinzip Business vor Technik, auf zwei synchronen Ebenen — Mensch und Technik.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+  <span class="brand">Mindshift AI · SHIFT V7</span>
+  <nav class="nav">
+    <a href="#executive-summary">Summary</a>
+    <a href="#das-shift-framework-in-der-tiefe">Framework</a>
+    <a href="#kennzahlen-je-phase-und-unternehmensgrosse">Kennzahlen</a>
+    <a href="#go-to-market-und-sichtbarkeitsaufbau">Go-to-Market</a>
+  </nav>
+</div>
+
+<section class="cover">
+  <div class="eyebrow">White Paper V7 — Mindshift KI</div>
+  <h1>Das SHIFT-Framework</h1>
+  <div class="tagline">KI-Einführungen, die ankommen.</div>
+  <p class="subline">Ein Umsetzungsmodell nach dem Prinzip <strong>Business vor Technik</strong>, auf zwei synchronen Ebenen — Mensch und Technik.<br><br>Mit Use-Case-Landkarte und Vier-Dimensionen-Raster, Branchenschnitt, Kennzahlen, EU-AI-Act-Mapping, Gate-Audit, Preisarchitektur, Führungsverschiebungen und Go-to-Market-Plan.</p>
+  <div class="meta">
+    <strong>Dirk Brusch</strong><br>
+    Mindshift KI<br>
+    Stand: 24. April 2026
+  </div>
+</section>
+
+<main class="paper">
+<section class="chapter"><h1 id="vorwort-warum-dieses-white-paper-existiert">Vorwort: Warum dieses White Paper existiert</h1>
+<p>Dieses White Paper beschreibt ein Framework. Aber es beginnt nicht mit einem Framework. Es beginnt mit einer Beobachtung, die ich in den vergangenen Jahren in sehr vielen Unternehmen gemacht habe — und die in keinem Beratungsmodell, das ich kenne, ehrlich benannt wird.</p>
+<p>Die Beobachtung lautet: Hinter fast jeder KI-Einführung, die scheitert, steht nicht ein technischer Fehler. Sondern die stille Angst der Menschen, die sie tragen sollen. Die Angst, nicht mehr gebraucht zu werden. Die Angst, das Neue nicht zu verstehen. Die Angst, sich vor Kolleginnen und Kollegen zu blamieren. Die Angst, ein Projekt zu verantworten, dessen Versprechen man selbst kaum einschätzen kann.</p>
+<p><strong></p><div class="hero-quote">Diese Angst ist nicht das Problem der KI-Einführung.<br>Diese Angst ist der Schlüssel.</div><p></strong></p>
+<p>Diese Haltung ist kein deutscher Sonderweg. Zack Kass, bis 2023 Head of Go-to-Market bei OpenAI, formuliert es so: „Technologie wird die Zukunft der Arbeit nicht definieren. Das wird die Führung tun.“ Unternehmen florierten nicht durch reine Effizienzgewinne, sondern dann, wenn Führungskräfte KI nutzten, um „den menschlichen Beitrag zu steigern und den Menschen die Freiheit zu geben, sich auf das zu konzentrieren, was nur sie tun können.“ Das SHIFT-Framework ist die operative Übersetzung dieser Haltung in den deutschen Mittelstand.</p>
+<p>Denn wer sie benennt, kann mit ihr arbeiten. Wer sie ignoriert, baut gegen sie. Deshalb ist das SHIFT-Framework nicht nur ein Vorgehensmodell, sondern eine Haltung. Die Haltung lautet: Business vor Technik, Mensch neben Technik, Mut vor Methode. Alles, was in diesem Dokument folgt, ist die saubere Ausarbeitung dieser drei Sätze.</p>
+<p><em>Aus „Bin ich gut genug?&quot; wird „Was kann ich noch werden?&quot;
+Aus „Ich kann das nicht&quot; wird „Ich kann das noch nicht.&quot;</em></p>
+<p>Das White Paper richtet sich an Geschäftsführer, Bereichsleiter und Transformationsverantwortliche, die eine KI-Einführung nicht als Projekt, sondern als permanenten Prozess verstehen wollen. Es ist dicht geschrieben. Es verlangt Aufmerksamkeit. Es verspricht im Gegenzug: Nach der Lektüre wissen Sie, woran eine KI-Einführung scheitert, bevor sie anfängt — und was Sie konkret anders machen müssen.</p>
+<p><em>Nichts in diesem Dokument ist als Pitch formuliert. Es ist als Einladung formuliert. Nicht zu einem Projekt, sondern zu einem Gespräch.</em></p>
+</section><section class="chapter"><h1 id="inhalt">Inhalt</h1>
+<p>Executive Summary</p>
+<p>1. Ausgangslage: Warum KI-Einführungen systematisch scheitern</p>
+<p>2. Grundidee: Business vor Technik, Mensch neben Technik</p>
+<p>3. Das SHIFT-Framework in der Tiefe</p>
+<p>   3.1  S — Sichten</p>
+<p>   3.2  H — Handeln</p>
+<p>   3.3  I — Integrieren</p>
+<p>   3.4  F — Fokussieren</p>
+<p>   3.5  T — Tragen</p>
+<p>4. Synchronität in einer Übersicht</p>
+<p>5. Branchenspezifische Zuordnung</p>
+<p>6. Kennzahlen je Phase und Unternehmensgröße</p>
+<p>7. EU-AI-Act-Mapping entlang der Phasen</p>
+<p>8. Gate-Audit: Abschluss jeder Phase</p>
+<p>9. Standard-Arbeitspakete und Preisarchitektur</p>
+<p>10. Führungsperspektive: Fünf Haltungsverschiebungen</p>
+<p>11. Ausblick 2026–2028: Neue Use-Cases durch agentische KI</p>
+<p>12. Go-to-Market und Sichtbarkeitsaufbau</p>
+<p>13. Häufige Fehler und wie das Framework sie adressiert</p>
+<p>14. Bezug zur Marke Mindshift KI</p>
+<p>15. Offene Punkte und Weiterentwicklung</p>
+<p>Anhang A: Use-Case-Katalog (30 wiederkehrende Fälle)</p>
+<p>Anhang B: Gate-Artefakte im Überblick</p>
+<p>Anhang C: Wesentliche Quellen</p>
+</section><section class="chapter"><h1 id="executive-summary">Executive Summary</h1>
+<p>KI-Einführungen scheitern systematisch. Die Zahlen sind eindeutig: 74 Prozent der Unternehmen schaffen keinen skalierbaren KI-Wert (BCG 2025). 95 Prozent verzeichnen keinen messbaren ROI (Harvard 2025, „AI Workslop&quot;). Von 33 Prototypen erreichen nur vier die Produktionsreife (IDC). Und 84 Prozent der Fehlschläge gehen auf Führungsversagen zurück (RAND).</p>
+<p><strong>Die Ursache ist nicht technisch. Sie hat zwei strukturelle Wurzeln:</strong></p>
+<ul>
+<li>Die Trennung von Mensch und Technik: Beide Stränge werden zeitlich und organisatorisch entkoppelt geführt — und blockieren sich gegenseitig.</li>
+<li>Die falsche Reihenfolge: Die Technologie wird vor dem Geschäftsproblem gewählt. „Technology Push&quot; statt „Demand Pull&quot;.</li>
+</ul>
+<p>Das SHIFT-Framework adressiert beide Ursachen konsequent. Es führt Mensch und Technik synchron in fünf Phasen. Es beginnt in jeder Phase mit dem Geschäftsproblem, nicht mit der Technologie. Und es arbeitet mit einem dritten, bislang unterschätzten Faktor: der Angst vor Veränderung als Gestaltungsressource, nicht als Hindernis.</p>
+<p><strong>Die fünf Phasen im Akronym:</strong></p>
+<ul>
+<li>S — Sichten: Geschäftsproblem, Menschen und Daten sauber erfassen und bewerten.</li>
+<li>H — Handeln: Erste kontrollierte Erfahrungen mit priorisierten Use Cases sammeln.</li>
+<li>I — Integrieren: Rollen, Aufgaben und Arbeitsabläufe neu schneiden.</li>
+<li>F — Fokussieren: Auf wenige wirksame Fälle konzentrieren, technisch absichern.</li>
+<li>T — Tragen: In den Alltag überführen, Wirkung messen, weiterentwickeln.</li>
+</ul>
+<p><strong>Was V6 gegenüber V5 leistet:</strong></p>
+<ul>
+<li>Vorwort und Kapitel 10 verankern den Mindshift-Ton: Angst als Schlüssel, nicht als Defizit.</li>
+<li>Jede Phase erhält Methoden-Tiefe: konkrete Interviewleitfäden, Messinstrumente, Rollen, Artefakte, Fallstricke.</li>
+<li>Der Use-Case-Katalog (Anhang A) beschreibt 30 wiederkehrende Fälle mit Zieldimensionen.</li>
+<li>Die Gate-Artefakte sind voll ausspezifiziert (Anhang B).</li>
+<li>Kennzahlen und EU-AI-Act-Pflichten sind je Phase auf konkrete Nachweise heruntergebrochen.</li>
+<li>Das Kapitel Führungsperspektive enthält konkrete Sätze, die im Alltag gesprochen werden — nicht nur abstrakte Shifts.</li>
+</ul>
+<p>Das Framework ist das inhaltliche Rückgrat der Marke Mindshift KI. Sprache, Haltung und Tonalität sind nicht Beiwerk, sondern Träger der Methode. Ein Leser dieses Dokuments soll nicht nur verstehen, wie SHIFT funktioniert, sondern warum nur dieser Weg hält, was KI in Unternehmen wirklich leisten kann.</p>
+</section><section class="chapter"><h1 id="1-ausgangslage-warum-ki-einführungen-systematisch-scheitern"><span class="chapter-number">Kapitel 1</span>Ausgangslage: Warum KI-Einführungen systematisch scheitern</h1>
+<h2 id="11-die-zahlen">1.1  Die Zahlen</h2>
+<p>Der KI-Markt wächst. Die Erfolgsquote in den Unternehmen nicht:</p>
+<ul>
+<li>BCG (2025): 74 Prozent aller Unternehmen schaffen keinen skalierbaren KI-Wert.</li>
+<li>McKinsey (2025): 88 Prozent nutzen KI, nur 39 Prozent weisen EBIT-Beitrag nach.</li>
+<li>IDC: Von 33 Prototypen erreichen nur vier die Produktionsreife (88 Prozent Ausfall).</li>
+<li>Prosci: 63 Prozent der Hürden sind menschliche Faktoren.</li>
+<li>RAND: 84 Prozent der Fehlschläge gehen auf Führungsversagen zurück.</li>
+<li>Harvard (2025): 95 Prozent der Organisationen verzeichnen keinen messbaren ROI („AI Workslop&quot;).</li>
+<li>Gartner (2026): Bis 2027 werden über 40 Prozent der agentischen KI-Projekte an der Unvereinbarkeit mit Altsystemen scheitern.</li>
+</ul>
+<p>Diese Zahlen sind nicht pessimistisch. Sie sind diagnostisch. Sie zeigen, dass die Lücke zwischen Pilot und produktiver Wirkung systematisch ist — kein Einzelfall, kein Brancheneffekt, kein Ausreißer. Wer diese Lücke ignoriert, wird sie wiederholen.</p>
+<h2 id="12-die-drei-strukturellen-fehler">1.2  Die drei strukturellen Fehler</h2>
+<h3>Fehler 1: Die Trennung von Mensch und Technik</h3>
+<p>Die meisten Einführungen trennen den technischen Strang (IT, Daten, Modelle) vom menschlichen Strang (HR, Change, Coaching). Beide laufen zeitlich und inhaltlich versetzt. Das Ergebnis: Die technische Ebene produziert Werkzeuge, für die es keine Nutzer gibt. Die menschliche Ebene produziert Akzeptanz für Werkzeuge, die noch nicht existieren. Am Ende blockiert eine Ebene die andere.</p>
+<h3>Fehler 2: Die falsche Reihenfolge</h3>
+<p>Ebenso verbreitet: Die Technologie wird vor dem Geschäftsproblem gewählt. Organisationen suchen zuerst ein Werkzeug aus und anschließend ein Problem, das damit gelöst werden könnte. Das Muster heißt „Technology Push&quot;. Seine Folgen sind in der Forschung belegt:</p>
+<ul>
+<li>Modelle passen nicht zur operativen Realität der Fachabteilungen.</li>
+<li>Es fehlen klare Definitionen der zu lösenden Geschäftsprobleme und damit messbare Erfolgskriterien.</li>
+<li>Initiativen bleiben in der „Pilothölle&quot; stecken.</li>
+<li>Datenqualität und Integration werden erst nach Projektstart geprüft — mit teuren Abbrüchen als Folge.</li>
+</ul>
+<p>Das Gegenmuster ist der „Demand Pull&quot;: Ausgangspunkt ist ein spezifischer geschäftlicher Engpass oder ein konkretes Nutzungspotenzial. Die Technologie wird danach ausgewählt. Das ist die Grundhaltung des SHIFT-Frameworks.</p>
+<h3>Fehler 3: Die unausgesprochene Angst</h3>
+<p>Dieser Fehler wird in Beratungsmodellen selten benannt. Er ist trotzdem der wirksamste. Er klingt so: „Wir müssen jetzt etwas mit KI machen, sonst werden wir überholt.&quot; Hinter diesem Satz steht nicht Überzeugung, sondern Angst. Angst vor dem Wettbewerb, Angst vor den eigenen Mitarbeitern, Angst vor Vorständen, Angst vor dem Markt.</p>
+<p>Angst erzeugt Aktionismus. Aktionismus kauft Tools. Tools lösen keine Probleme. Damit ist der Zyklus vollständig: Angst → Aktion → Tool → kein Effekt → mehr Angst. Das SHIFT-Framework bricht diesen Zyklus an genau einer Stelle: am Anfang. Es erlaubt, die Angst zu benennen, bevor die Technologie ausgewählt wird.</p>
+<p><em>Die Angst ist nicht das Problem. Die Angst ist der Schlüssel.</em></p>
+<p>Zack Kass bringt das Muster auf den Punkt: „Derzeit machen viele Menschen Geschäfte mit der Angst.“ Und er benennt das eigentliche Risiko präziser, als es die üblichen Job-Verlust-Narrative tun: „Das eigentliche Risiko ist keine Krise des Arbeitsplatzverlustes, sondern eine Krise der Identitätsverdrängung.“ Genau hier setzt das SHIFT-Framework an — nicht bei der Technik, sondern bei der Identität der Menschen, die sie tragen sollen.</p>
+<h2 id="13-die-wissenschaftliche-grundlage">1.3  Die wissenschaftliche Grundlage</h2>
+<p>SHIFT steht nicht auf Marketing-Narrativen. Es steht auf belegten Wirkmechanismen:</p>
+<ul>
+<li>Paul Leonardi (Harvard Business School): „Developing a Digital Mindset&quot; — das Konzept der digitalen Fluency.</li>
+<li>Amy Edmondson (Harvard): „Psychological Safety&quot; als Lernvoraussetzung in Teams.</li>
+<li>Stanford (Carol Dweck): Growth Mindset als Prädiktor für Nutzungsverhalten.</li>
+<li>Erweitertes Technology Acceptance Model (TAM).</li>
+<li>FERC-Modell (Frame, Explore, Refine, Commit) zur hybriden Intelligenz.</li>
+<li>Hampel (2025): Neue Fehlerkultur — Just Culture, Double-Loop-Learning, Pre-Mortem, After-Action-Review.</li>
+<li>Business-First-Forschung (KPMG, EY, Agility at Scale): Demand Pull, Pain-Point-Analyse, Use-Case-Priorisierung.</li>
+<li>Anthropic Economic Index (2025): Produktivitätseffekte bei Centauren-Mustern.</li>
+<li>Prosci ADKAR: Reinforcement und Verankerung.</li>
+</ul>
+<h2 id="14-die-konsequenz-für-das-framework">1.4  Die Konsequenz für das Framework</h2>
+<p>Ein tragfähiges Umsetzungsmodell muss fünf Anforderungen erfüllen:</p>
+<ol>
+<li>Beide Ebenen — Mensch und Technik — gemeinsam und phasengleich führen.</li>
+<li>Am Geschäftsproblem beginnen, nicht an der Technologie.</li>
+<li>Pro Phase messbare Veränderungen ausweisen.</li>
+<li>Auf belegten Wirkmechanismen aufbauen, nicht auf Marketing-Narrativen.</li>
+<li>Die emotionale Dimension (Angst, Unsicherheit, Identität) gleichberechtigt behandeln — nicht als „Soft Factor&quot; an den Rand schieben.</li>
+</ol>
+<p>Das SHIFT-Framework ist für genau diesen Anspruch konzipiert.</p>
+</section><section class="chapter"><h1 id="2-grundidee-business-vor-technik-mensch-neben-technik"><span class="chapter-number">Kapitel 2</span>Grundidee: Business vor Technik, Mensch neben Technik</h1>
+<h2 id="21-die-beiden-ebenen-und-der-business-anker">2.1  Die beiden Ebenen und der Business-Anker</h2>
+<p>Das Framework unterteilt eine KI-Einführung in fünf Phasen. In jeder Phase laufen zwei Ebenen parallel und zeitlich abgestimmt: die menschliche Ebene (Haltung, Verhalten, Rollen) und die technische Ebene (Daten, Modelle, Systeme). Beide Ebenen werden durch einen übergeordneten Bezugspunkt zusammengehalten: das Geschäftsproblem.</p>
+<p>Keine Aktivität auf einer der beiden Ebenen beginnt, ohne dass der Geschäftsnutzen benannt und quantifiziert ist. Das unterscheidet SHIFT von Modellen, die entweder technikzentriert (MLOps) oder menschenzentriert (ADKAR, Kotter) operieren.</p>
+<div class="table-wrap"><table><thead><tr><th>&nbsp;</th><th><strong>Menschliche Ebene</strong></th><th><strong>Technische Ebene</strong></th><th><strong>Business-Anker</strong></th></tr></thead><tbody><tr><td>Gegenstand</td><td>Haltung, Rollen, Verhalten, Fehlerkultur</td><td>Daten, Modelle, Schnittstellen, Governance</td><td>Engpass, Fehlerkosten, Wettbewerbsvorteil</td></tr><tr><td>Disziplin</td><td>Organisationsentwicklung, Psychologie</td><td>Data Science, Software Engineering</td><td>Betriebswirtschaft, Strategie</td></tr><tr><td>Zielgröße</td><td>Nutzungsverhalten, Growth Mindset</td><td>Modellgüte, Stabilität, Compliance</td><td>EUR/Jahr, Durchlaufzeit, Qualitätsquote</td></tr><tr><td>Scheitert, wenn</td><td>Angst tabuisiert wird</td><td>Context-freie Modelle gebaut werden</td><td>kein Sponsor, kein Nutzen beziffert</td></tr></tbody></table></div>
+<h2 id="22-sieben-grundprinzipien">2.2  Sieben Grundprinzipien</h2>
+<h3>Prinzip 1: Business vor Technik</h3>
+<p>Ausgangspunkt jeder Maßnahme ist ein konkretes Geschäftsproblem — ein Engpass, eine Fehlerquelle, ein Wettbewerbsnachteil. Die Technologie folgt, sie führt nicht. Kein Use Case beginnt ohne benannten Fachbereichs-Sponsor und ohne quantifiziertes Nutzenpotenzial. Dieses Prinzip steht bewusst vor den übrigen, weil es die Reihenfolge vorgibt.</p>
+<h3>Prinzip 2: Mensch neben Technik, nicht nach Technik</h3>
+<p>Die menschliche Ebene ist keine Begleitmaßnahme, die nach der technischen Arbeit stattfindet. Sie ist gleichzeitig, gleichberechtigt, gleich budgetiert. Wer die Reihenfolge „erst technisch bauen, dann Akzeptanz erzeugen&quot; wählt, baut zweimal.</p>
+<p>Zack Kass, ehemaliger Head of Go-to-Market bei OpenAI, nennt dafür den Begriff „Automation Boundary“: die bewusste Linie zwischen dem, was Maschinen tun sollten, und dem, was Menschen behalten müssen — entschieden entlang von Risiko, Wert und Akzeptanz. Genau diese Grenze zu ziehen, ist Aufgabe der menschlichen Ebene in SHIFT, nicht der technischen.</p>
+<h3>Prinzip 3: Synchronität statt Sequenz</h3>
+<p>In jeder Phase werden beide Ebenen im selben Takt bearbeitet. Keine Phase lässt eine der beiden Ebenen liegen. Das führt zu einer höheren Eingangskomplexität, aber deutlich geringerer Reibung in der Umsetzung.</p>
+<h3>Prinzip 4: Messbarkeit pro Phase</h3>
+<p>Jede Phase definiert beobachtbares Verhalten und konkrete Systemzustände. Am Ende jeder Phase steht eine Überprüfung, die auf Beobachtung und Kennzahlen beruht — nicht auf Selbstauskunft.</p>
+<h3>Prinzip 5: Wirkung vor Aktivität</h3>
+<p>Eine Maßnahme ist erfolgreich, wenn sich die definierten Indikatoren verändert haben — nicht, weil sie stattgefunden hat. Ein Workshop, ein Pilot, ein Governance-Meeting sind Aktivitäten. Sie werden an ihrem Wirkungsbeitrag gemessen, nicht an ihrer Durchführung.</p>
+<h3>Prinzip 6: Umkehrbarkeit nur kontrolliert</h3>
+<p>Jede Phase schließt ab, bevor die nächste beginnt. Rückschritte werden ausgewiesen und begründet. Das ist kein Wasserfall — Iterationen innerhalb einer Phase sind ausdrücklich vorgesehen —, aber das Überspringen von Gates ist nicht zulässig.</p>
+<h3>Prinzip 7: Builder-Strategist-Prinzip</h3>
+<p>Die Umsetzung liegt bei einer Person, die beide Ebenen beherrscht: Strategie und Umsetzung zugleich, ohne Schnittstellen zu einem getrennten Implementierungsteam. Das reduziert Abstimmungsverluste, erhöht die Verantwortungs-Klarheit und ist der zentrale Grund, warum SHIFT in einer Hand geführt werden kann.</p>
+<h2 id="23-abgrenzung-zu-bestehenden-modellen">2.3  Abgrenzung zu bestehenden Modellen</h2>
+<div class="table-wrap"><table><thead><tr><th><strong>Modell</strong></th><th><strong>Fokus</strong></th><th><strong>Was fehlt</strong></th><th><strong>Wo es in SHIFT eingeht</strong></th></tr></thead><tbody><tr><td>ADKAR (Prosci)</td><td>Change auf Individualebene</td><td>Technik, Business-Priorisierung</td><td>Wirkprinzipien menschliche Ebene, Reinforcement</td></tr><tr><td>Kotter (8 Schritte)</td><td>Organisatorischer Wandel</td><td>Messbarkeit, Technik</td><td>Sense of Urgency, Koalition</td></tr><tr><td>MLOps</td><td>Technischer Betrieb</td><td>Mensch, Business-Nutzen</td><td>Bausteine Phase F und T</td></tr><tr><td>KPMG / EY Roadmap</td><td>Use-Case-Priorisierung</td><td>Menschliche Ebene, Fehlerkultur</td><td>Impact/Effort, Pain-Point-Analyse</td></tr><tr><td>Agile / Scrum</td><td>Iteratives Vorgehen</td><td>Transformation als Ganzes</td><td>Sprint-Logik in Phase H</td></tr><tr><td>SHIFT</td><td>Beides, synchron, am Business</td><td>—</td><td>—</td></tr></tbody></table></div>
+<h2 id="24-der-emotionale-unterbau-des-frameworks">2.4  Der emotionale Unterbau des Frameworks</h2>
+<p>Ein Framework ist Papier. Was ihm Wirkung gibt, ist der Modus, in dem es angewandt wird. SHIFT unterscheidet sich von klassischen Transformationsmodellen durch einen expliziten emotionalen Unterbau. Er besteht aus drei Sätzen, die in jeder Phase anwesend sein müssen:</p>
+<ul>
+<li>„Sie müssen das nicht verstehen, dafür gibt es mich.&quot; — Sicherheit für Entscheider.</li>
+<li>„Die Angst ist der Schlüssel, nicht das Problem.&quot; — Zulassen, was sonst verdrängt wird.</li>
+<li>„Aus „Ich kann das nicht&quot; wird „Ich kann das noch nicht.&quot; — Growth Mindset im Alltag.</li>
+</ul>
+<p>Diese Sätze sind keine Schmuckstücke. Sie sind Arbeitsmittel. Sie öffnen die Gespräche, in denen die eigentliche Arbeit passiert. Ein Use-Case-Workshop, in dem niemand Angst zeigen darf, produziert keine ehrlichen Pain Points. Ein Pilot, in dem Fehler stigmatisiert sind, produziert keine tragfähigen Erkenntnisse.</p>
+</section><section class="chapter"><h1 id="3-das-shift-framework-in-der-tiefe"><span class="chapter-number">Kapitel 3</span>Das SHIFT-Framework in der Tiefe</h1>
+<p><strong>Jede Phase wird nach identischer Struktur beschrieben:</strong></p>
+<ul>
+<li>Ausgangslage — Zielzustand</li>
+<li>Business-Ebene: Methodik, Artefakte, Fragen</li>
+<li>Menschliche Ebene: Instrumente, Rituale, Sprachmuster</li>
+<li>Technische Ebene: Bausteine, Abgrenzungen</li>
+<li>EU-AI-Act-Bezüge und Nachweise</li>
+<li>Typische Fallstricke</li>
+<li>Wirkung und Übergang in die Folgephase</li>
+</ul>
+<p>Die Business-Ebene steht in jeder Phase an erster Stelle. Die menschliche und die technische Ebene folgen — nicht umgekehrt. Das ist kein redaktioneller Zufall, sondern Methode.</p>
+<div class="phase-banner"><div class="letter">S</div><div class="text"><h2>S — Sichten</h2><div class="subtitle">Geschäftsproblem, Menschen und Daten sauber erfassen</div></div></div>
+<p><em>„Bevor wir über Werkzeuge reden, brauche ich ein ehrliches Bild. Von dem, was Sie quält. Von dem, was Sie hoffen. Und von dem, was Ihre Daten wirklich hergeben.&quot;</em></p>
+<h3>Ausgangslage</h3>
+<p>Die Organisation hat Ideen zu KI, meist ohne klare Priorisierung. Es gibt unterschiedliche Ausprägungen von Unsicherheit auf der menschlichen Seite. Technisch liegt eine heterogene Systemlandschaft vor: Daten sind weitgehend unstrukturiert (IDC: 90 Prozent), Schnittstellen unvollständig beschrieben, Schatten-KI ist an mehreren Stellen bereits aktiv, ohne dass jemand den Überblick hat.</p>
+<h3>Zielzustand</h3>
+<p>Am Ende der Phase S liegen drei belastbare Ergebnisse vor:</p>
+<ol>
+<li>Eine priorisierte Use-Case-Liste mit quantifiziertem Geschäftswert (EUR/Jahr) und Vier-Dimensionen-Bewertung.</li>
+<li>Ein belegbares Lagebild über Haltung, Bereitschaft und spezifische Ängste der Betroffenen.</li>
+<li>Ein Inventar der verfügbaren Daten, Systeme und bestehenden KI-Funktionen — einschließlich Schatten-KI.</li>
+</ol>
+<h3>Business-Ebene — die Use-Case-Landkarte</h3>
+<p>Dies ist der Einstiegspunkt jeder SHIFT-Einführung. Vor jeder Daten-Analyse und vor jedem Mitarbeitergespräch steht die Frage: An welchen Stellen des Geschäfts liegt der größte Nutzen?</p>
+<p><strong>Methodik im Detail:</strong></p>
+<ul>
+<li>Pain-Point-Workshops mit Fachbereichsleitern, ausgehend von den strategischen Jahreszielen. Dauer typisch 3 Stunden je Bereich.</li>
+<li>Wertschöpfungsketten-Analyse: Wartezeiten, Doppelarbeit, Qualitätsverluste, Medienbrüche je Prozessschritt.</li>
+<li>Strategische Einordnung: Welche Pain Points tragen am stärksten zum Wettbewerbsvorteil bei, wenn sie gelöst werden?</li>
+<li>Quantifizierung: Jeder Pain Point wird mit einem Geschäftswert hinterlegt (EUR/Jahr, vermiedene Fehlerkosten, Zeitersparnis × Stundensatz).</li>
+</ul>
+<p><strong>Drei Use-Case-Kategorien werden systematisch durchgegangen:</strong></p>
+<div class="table-wrap"><table><thead><tr><th><strong>Kategorie</strong></th><th><strong>Beispielhafte Fälle</strong></th><th><strong>Typischer Hebel</strong></th></tr></thead><tbody><tr><td>Fehlervermeidung / QS</td><td>Reklamationsprüfung, Rechnungsfreigabe, Qualitätskontrolle</td><td>Vermiedene Fehlerkosten, Compliance-Risiko</td></tr><tr><td>Zeitersparnis / Effizienz</td><td>Angebotserstellung, Ausschreibungsprüfung, Onboarding-Dokumente</td><td>Durchlaufzeit, Kapazität</td></tr><tr><td>Vorhersage / Wettbewerbsvorteil</td><td>Preisprognose, Absatzprognose, Kundensegmentierung, Predictive Maintenance</td><td>Umsatz, Marge, Lagerbestand</td></tr></tbody></table></div>
+<p><strong>Das Vier-Dimensionen-Bewertungsraster</strong></p>
+<p>Jeder identifizierte Use Case wird anhand von vier Dimensionen bewertet. Erst wenn alle vier zusammen akzeptabel sind, wird ein Use Case in die Pilot-Auswahl der Phase H aufgenommen.</p>
+<div class="table-wrap"><table><thead><tr><th><strong>Dimension</strong></th><th><strong>Frage</strong></th><th><strong>Bewertungsskala</strong></th><th><strong>Schwellwert</strong></th></tr></thead><tbody><tr><td>Business Value</td><td>Welcher Nutzen, quantifiziert in EUR oder Zeit?</td><td>1 (&lt; 50k EUR/Jahr) bis 5 (&gt; 1 Mio EUR/Jahr)</td><td>≥ 3</td></tr><tr><td>KI-Eignung</td><td>Ist die Aufgabe mustererkennend, sprachbasiert, wiederkehrend, klar abgegrenzt?</td><td>1 (ungeeignet) bis 5 (ideal)</td><td>≥ 3</td></tr><tr><td>Data Readiness</td><td>Liegen die Daten in ausreichender Qualität, Menge und Zugriffsform vor?</td><td>1 (keine Basis) bis 5 (Production-ready)</td><td>≥ 3</td></tr><tr><td>Organisationsreife</td><td>Gibt es Sponsor, Rollen, Zeit und psychologische Bereitschaft?</td><td>1 (kein Träger) bis 5 (Team steht)</td><td>≥ 3</td></tr></tbody></table></div>
+<p>Ergebnis: Die Use Cases werden in einer Impact/Effort-Matrix visualisiert. Business Value auf der Y-Achse, Machbarkeit (gewichteter Mittelwert aus KI-Eignung, Data Readiness, Organisationsreife) auf der X-Achse. Quick Wins (hoch/hoch) werden bevorzugt in Phase H gestartet. Strategische Langläufer (hoch/niedrig) werden notiert und zurückgestellt, bis die niedrigen Faktoren adressiert sind.</p>
+<p>Disziplin: Das Raster ist bewusst streng. Use Cases, die in einer Dimension unter dem Schwellwert liegen, scheiden aus — sie werden nicht nachbewertet. Das verhindert Lieblingsprojekte, die sich in die Folgephasen schleichen.</p>
+<h3>Menschliche Ebene — das Lagebild</h3>
+<p>Parallel zur Business-Analyse wird die menschliche Seite erfasst. Ziel ist nicht Überzeugungsarbeit, sondern ein ehrliches Bild. Drei Instrumente:</p>
+<ul>
+<li>Digitales Mindset Assessment (Leonardi): Selbstauskunft + Verhaltensbeobachtung zu digitaler Fluency.</li>
+<li>Growth-vs.-Fixed-Mindset-Befragung (Dweck): Identifiziert, wer bereits „noch nicht&quot; denkt und wer „kann ich nicht&quot; denkt.</li>
+<li>Angst-Kartografie (Mindshift-spezifisch): Offene Einzelinterviews von 30 Minuten, in denen drei Fragen gestellt werden: Was erleichtert Sie? Was belastet Sie? Was macht Sie wach?</li>
+</ul>
+<p>Die Angst-Kartografie ist das wichtigste, am seltensten praktizierte Instrument dieser Phase. Sie liefert keine Statistik, sondern Zitate. Zitate, die in Phase H als Hypothesen-Checks dienen: „Sie haben gesagt, Sie befürchten, dass die KI Entscheidungen trifft, die Sie später verantworten müssen. Im Pilot soll genau diese Sorge technisch unmöglich gemacht werden. Schauen Sie sich das an.&quot;</p>
+<p><strong>Sprachmuster in Phase S:</strong></p>
+<ul>
+<li>„Was läuft gut genug?&quot; (statt „Was muss anders?&quot;)</li>
+<li>„Was würde passieren, wenn wir gar nichts tun?&quot; (löst ehrliche Dringlichkeits-Einschätzung aus)</li>
+<li>„Wo lügen Sie sich gerade selbst an?&quot; (nur in vertrauensvollen Gesprächen, aber wirkungsvoll)</li>
+</ul>
+<h3>Technische Ebene — Daten-Audit und KI-Inventar</h3>
+<p>Die technische Bestandsaufnahme folgt auf die Business-Analyse und flankiert sie. Sie liefert die Grundlage, um die Dimension Data Readiness im Use-Case-Raster zu füllen.</p>
+<ul>
+<li>Daten-Audit: Quellen, Qualität, Vollständigkeit, Zugriffsrechte, strukturiert vs. unstrukturiert. Je Use Case mindestens zwei Datenquellen dokumentiert.</li>
+<li>Schnittstellen-Inventur: Welche Systeme per API ansprechbar, welche nicht. Aufwand-Schätzung pro Integration.</li>
+<li>KI-Inventar: Alle bereits im Unternehmen vorhandenen KI-Modelle, KI-Funktionen und eingebetteten Features (auch Schatten-KI, auch private ChatGPT-Nutzung). Grundlage für die EU-AI-Act-Risikokategorisierung.</li>
+<li>Architektur-Skizze: Systemlandschaft auf einer Seite, mit Engpässen und Integrationsoptionen.</li>
+</ul>
+<h3>EU-AI-Act-Bezüge</h3>
+<p>Relevante Artikel in Phase S:</p>
+<ul>
+<li>Art. 10 (Daten und Datenqualität): Nachweis der Datenqualität pro geplantem Use Case.</li>
+<li>Art. 11 (Technische Dokumentation): Start einer zentralen Dokumentation pro Use Case.</li>
+<li>Art. 4 (AI Literacy, seit 02.02.2025): Bereits in dieser Phase wird die AI-Literacy-Lücke kartiert.</li>
+</ul>
+<p>Nachweise: Daten-Audits, Data-Lineage-Dokumente, zentrales KI-Inventar mit Risikokategorisierung nach Art. 6 und Anhang III.</p>
+<h3>Typische Fallstricke in Phase S</h3>
+<ul>
+<li>Der Workshop wird zum Wunsch-Katalog: Ohne Geschäftswert-Quantifizierung entsteht eine Liste, die keine Entscheidungsgrundlage ist.</li>
+<li>Die Daten werden nicht angefasst: Data Readiness wird aus Selbstauskunft der IT geschätzt, nicht gemessen. Typische Folge: 80 Prozent der in Phase H gestarteten Piloten kämpfen mit Datenproblemen.</li>
+<li>Angst wird als „HR-Thema&quot; ausgelagert: Die Angst-Kartografie entfällt, das Lagebild ist unvollständig, die Piloten in Phase H treffen auf unerwarteten Widerstand.</li>
+<li>Kein Sponsor: Use Cases werden priorisiert, ohne dass ein Fachbereichsleiter die Verantwortung übernimmt. In Phase H fehlt die operative Entscheidungsinstanz.</li>
+</ul>
+<h3>Wirkung und Übergang</h3>
+<p>Kernprodukt ist die priorisierte Use-Case-Liste. Sie wandert durch alle folgenden Phasen und wird in jeder Phase aktualisiert. Ohne diese Liste beginnt Phase H nicht. Die Liste ist ein lebendes Dokument: Nach jeder Phase wird sie fortgeschrieben — mit realisierten Werten, neuen Erkenntnissen, herausgefallenen Fällen und neu hinzugekommenen.</p>
+<div class="phase-banner"><div class="letter">H</div><div class="text"><h2>H — Handeln</h2><div class="subtitle">Erste kontrollierte Erfahrungen mit priorisierten Use Cases</div></div></div>
+<p><em>„Nicht planen, bis es perfekt ist. Anfangen, solange es noch Angst macht. Drei Piloten, zwölf Wochen, klare Abbruchkriterien. Dann wissen wir mehr.&quot;</em></p>
+<h3>Ausgangslage</h3>
+<p>Die priorisierte Use-Case-Liste aus Phase S liegt vor. Statt längerer Konzeptphasen oder breiter Einführungen werden kleine, kontrollierte Erfahrungen ausgelöst. Leitsatz: Start Small, Scale Fast. Das Ziel ist nicht „Beweisen, dass es funktioniert&quot;. Das Ziel ist: „Herausfinden, ob es funktioniert — und wenn nicht, warum nicht.&quot;</p>
+<h3>Zielzustand</h3>
+<p>Zwei bis vier Piloten laufen auf den aus Phase S gewonnenen Top-Use-Cases. Pro Pilot liegt ein Nachweis vor, ob sich der im Raster angesetzte Business Value tatsächlich realisieren lässt. Mitarbeiter haben persönlich erlebt, dass sie KI bedienen können. Eine neue Fehlerkultur ist in den Piloten gelebte Praxis, nicht Wandschmuck.</p>
+<h3>Business-Ebene — Auswahl und Abbruchkriterien</h3>
+<p>Die Auswahl der Piloten folgt ausschließlich der Matrix aus Phase S. Quick Wins werden bevorzugt, weil sie den Business-Value-Nachweis mit geringem Aufwand erbringen. Pro Pilot wird ein Fachbereichs-Sponsor benannt — ohne Sponsor kein Start (Joint Ownership).</p>
+<p><strong>Abbruchkriterien werden vor Pilotstart in dieser Reihenfolge schriftlich definiert:</strong></p>
+<ol>
+<li>Wirtschaftlich: Ab wann lohnt sich die Fortführung nicht mehr? (EUR-Nutzen pro Vorgang, Durchlaufzeit, Qualität)</li>
+<li>Technisch: Ab wann liefert das Modell keine brauchbaren Ergebnisse mehr? (Genauigkeit, Antwortzeit, Halluzinationsrate)</li>
+<li>Organisatorisch: Wird der Pilot von den Beteiligten angenommen oder umgangen?</li>
+</ol>
+<p>Zusätzlich: Pro Pilot wird eine Null-Hypothese formuliert. Beispiel: „Der Pilot hat keinen messbaren Effekt auf Durchlaufzeit.&quot; Die Aufgabe des Pilots ist, die Null-Hypothese zu widerlegen — nicht zu bestätigen, dass KI gut ist.</p>
+<h3>Menschliche Ebene — Growth Mindset im Alltag</h3>
+<p>Grundlage ist das technologische Wachstumsdenken. Menschen mit Growth Mindset iterieren bei fehlerhaften KI-Antworten, statt abzubrechen. Dies entspricht dem Konzept der Psychological Safety (Edmondson).</p>
+<p>Strukturierte Übungen an realen, aber unkritischen Aufgaben. Kurze Reflexionen nach jeder Übung. Verzicht auf Bewertungen durch Vorgesetzte in dieser Phase. Die Trennung zwischen „Lernzeit&quot; und „Leistungszeit&quot; ist explizit.</p>
+<p><strong>Konkretes Vorgehen:</strong></p>
+<ul>
+<li>Pilot-Kick-off: 2 Stunden je Pilot. Erste Prompts werden gemeinsam geschrieben. Jeder Teilnehmer bedient das Werkzeug mindestens einmal live.</li>
+<li>Wöchentliche „Fehler-Runde&quot; von 30 Minuten: Teilnehmer zeigen die schlechtesten KI-Antworten der Woche. Das Format ist ausdrücklich nicht evaluativ — es ist eine Datensammlung.</li>
+<li>Prompt-Tagebuch: Jeder Pilot-Teilnehmer führt ein kurzes Tagebuch (5 Minuten/Tag) mit Prompts, Ergebnissen, Nachbesserungen. In Phase T wird daraus die Prompt-Bibliothek.</li>
+</ul>
+<p><strong>Die neue Fehlerkultur als kultureller Unterbau</strong></p>
+<p>Die Fehlerkultur nach Hampel (2025) mit integrierter Edmondson-Psychological-Safety:</p>
+<ul>
+<li>Fehler sind Datenpunkte und Lernsignale, nicht moralisches Versagen.</li>
+<li>Just Culture unterscheidet sauber zwischen Lernfehlern und grober Fahrlässigkeit.</li>
+<li>Systemblick statt Personenschuld: Nicht „Wer hat den Fehler gemacht?&quot;, sondern „Welches System hat ihn möglich gemacht?&quot;.</li>
+<li>Entmoralisierte Sprache: „Versagen&quot; wird „Hypothesenprüfung&quot;, „Schuld&quot; wird „Iteration&quot;.</li>
+<li>Intelligente Fehler (Edmondson) in unsicheren Situationen sind gewollt.</li>
+</ul>
+<p><strong>Operative Rituale:</strong></p>
+<ul>
+<li>Pre-Mortem vor jedem Pilotstart: Fiktive Analyse, warum der Pilot gescheitert sein wird — bevor er startet. Dauer: 90 Minuten.</li>
+<li>After-Action-Review nach jedem Meilenstein: Schuld- und schamfrei moderiert, mit vier Leitfragen (s. Kap. 8).</li>
+<li>Fehlerbudget: Definierte Abweichungsquote für Experimente, solange der Kernbetrieb stabil bleibt.</li>
+</ul>
+<h3>Technische Ebene — Sandbox, nicht Produktion</h3>
+<ul>
+<li>Sandbox: Isolierte Testumgebung, strikte Trennung von Produktionssystemen, eindeutige Zugriffsrechte, vollständige Protokollierung.</li>
+<li>Modellwahl: In dieser Phase möglichst verfügbare Foundation Models (GPT-Klasse, Claude-Klasse) ohne Custom-Training. Ziel ist Geschwindigkeit, nicht Modelloptimierung.</li>
+<li>Daten-Snapshots statt Live-Anbindung: Reduziert Risiko, ermöglicht reproduzierbare Vergleiche.</li>
+<li>Protokollierung: Jede Interaktion wird geloggt. Grundlage für Auswertung, Compliance-Nachweis und spätere Modellverbesserung.</li>
+</ul>
+<h3>EU-AI-Act-Bezüge</h3>
+<ul>
+<li>Art. 4 (AI Literacy, seit 02.02.2025): Mitarbeitende müssen über ausreichende KI-Kenntnisse verfügen. Nachweise: dokumentierte Schulungen zu Technik, Ethik, Recht.</li>
+<li>Art. 5 (Verbote): Prüfung, ob der geplante Use Case unter verbotene Praktiken fällt (Sozial-Scoring, Emotionserkennung am Arbeitsplatz, manipulative KI).</li>
+</ul>
+<h3>Typische Fallstricke in Phase H</h3>
+<ul>
+<li>Der Pilot wird zum Mini-Produkt: Statt zwölf Wochen Lernen werden sechs Monate gebaut. Die Organisation verliert Tempo und Offenheit.</li>
+<li>Kein Abbruch: Ein Pilot, der die Abbruchkriterien reißt, wird trotzdem weitergeführt („wir haben schon so viel investiert&quot;). Das Framework verlangt hier Disziplin, nicht Höflichkeit.</li>
+<li>Angst wird zensiert: Wenn Teilnehmer nicht offen sagen dürfen, was sie als Überforderung erleben, produziert der Pilot Schein-Akzeptanz.</li>
+<li>Keine Messung: Bearbeitungszeit und Fixing Time werden nicht dokumentiert. Am Ende fehlt die Evidenz für die Phase-I-Entscheidung.</li>
+</ul>
+<h3>Wirkung und Übergang</h3>
+<p>Am Ende von Phase H liegen vor: zwei bis vier ausgewertete Piloten mit klaren Entscheidungen (weiterführen / anpassen / abbrechen), eine erste Prompt-Bibliothek, ein dokumentiertes Angst- und Akzeptanzlagebild, erste Fehlerkultur-Rituale im Alltag. Der Gate-Übergang in Phase I ist nur möglich, wenn mindestens ein Pilot Business Value nachgewiesen hat.</p>
+<div class="phase-banner"><div class="letter">I</div><div class="text"><h2>I — Integrieren</h2><div class="subtitle">Rollen, Aufgaben und Arbeitsabläufe neu schneiden</div></div></div>
+<p><em>„Ab jetzt ist KI nicht mehr Zusatzwerkzeug. Ab jetzt ist KI Teil der Arbeit selbst. Das verändert Rollen, Verantwortungen und Entscheidungspunkte.&quot;</em></p>
+<h3>Ausgangslage</h3>
+<p>Die Piloten aus Phase H haben Business Value nachgewiesen. Es reicht nicht mehr, KI als Zusatzwerkzeug bereitzustellen — die Arbeit selbst muss neu geschnitten werden. Dies ist die Phase, in der die meisten Organisationen stehen bleiben (McKinsey: „zwischen Pilot und Skalierung&quot;). Genau hier entscheidet sich, ob aus einem Werkzeug eine neue Arbeitsweise wird.</p>
+<h3>Zielzustand</h3>
+<p>Drei bis fünf Kernanwendungsfälle sind produktiv. Rollenbilder sind angepasst. Arbeitsabläufe sind neu modelliert mit Human-in-the-Loop-Freigabepunkten. Der Unterschied zwischen Erfolg und Workslop ist in den Prozess eingebaut.</p>
+<h3>Business-Ebene — vom Pilot zum Kernanwendungsfall</h3>
+<p>Die drei bis fünf Kernanwendungsfälle ergeben sich aus den Pilot-Gewinnern der Phase H. Auswahlkriterium: nachgewiesener Business Value plus Skalierbarkeit. Pro Kernanwendungsfall ist der realisierte Geschäftswert dokumentiert und wird in Phase T kontinuierlich nachgehalten.</p>
+<p>Zwei belastbare Studienergebnisse prägen diese Phase:</p>
+<ul>
+<li>McKinsey: KI-Vorreiter sind fast dreimal so häufig bereit, ihre Arbeitsabläufe grundlegend neu zu schneiden.</li>
+<li>BCG: Spitzenunternehmen konzentrieren 80 Prozent ihrer KI-Investitionen auf ein bis drei Kernfunktionen. Streuung ist kein Erfolgsindikator.</li>
+</ul>
+<p><strong>Das Prozess-Redesign-Raster</strong></p>
+<p>Jeder Kernanwendungsfall wird entlang dieser Fragen geschnitten:</p>
+<ol>
+<li>Welche Prozessschritte fallen komplett weg?</li>
+<li>Welche Schritte werden von der KI vorbereitet, aber vom Menschen entschieden (Human-in-the-Loop)?</li>
+<li>Welche Schritte werden von der KI autonom ausgeführt (mit Abweichungs-Alarm)?</li>
+<li>Welche Rolle entsteht neu — Prompt-Verantwortlicher, Qualitäts-Reviewer, Eskalationsinstanz?</li>
+<li>Welche Rolle verschwindet oder verschiebt sich inhaltlich?</li>
+</ol>
+<h3>Menschliche Ebene — der Rollenwechsel</h3>
+<p>Gegenstand ist der Rollenwechsel. Die produktive Nutzung generativer und agentischer KI erfordert die Verschiebung vom passiven Werkzeugnutzer zum Orchestrator. Das FERC-Modell (Frame, Explore, Refine, Commit) beschreibt diese Rollenteilung:</p>
+<div class="table-wrap"><table><thead><tr><th><strong>Schritt</strong></th><th><strong>Mensch macht</strong></th><th><strong>KI macht</strong></th></tr></thead><tbody><tr><td>Frame</td><td>Problemkontext, Zielbild, Kriterien</td><td>—</td></tr><tr><td>Explore</td><td>Prüfung, Nachfrage</td><td>Variante 1..n, Literatur, Entwürfe</td></tr><tr><td>Refine</td><td>Auswahl, Verfeinerung, Ausschluss</td><td>Ausarbeitung je Richtung</td></tr><tr><td>Commit</td><td>Entscheidung, Verantwortung</td><td>Umsetzung im Format</td></tr></tbody></table></div>
+<p>Mitarbeiter delegieren Routineanteile an KI und verlagern ihre Arbeitszeit auf Qualitätskontrolle, Kontext und Freigabe. Halluzinationen und „AI Workslop&quot; (oberflächlich fehlerfreie, aber substanzlose KI-Ergebnisse) werden vor der produktiven Nutzung abgefangen.</p>
+<p><strong>Identitätsarbeit — der oft vergessene Faktor</strong></p>
+<p>Eine Rollenverschiebung berührt die berufliche Identität. Wer bisher „Angebote schreibt&quot; und nun „Angebote prüft, die die KI schreibt&quot;, erlebt das nicht nur als Effizienzgewinn, sondern als Statusveränderung. Wird das ignoriert, entsteht stiller Widerstand.</p>
+<p>SHIFT verlangt in Phase I deshalb explizit:</p>
+<ul>
+<li>Identitäts-Gespräche in jeder betroffenen Rolle: „Was macht Ihre Arbeit aus, was Ihnen wichtig ist? Was davon bleibt, was verändert sich?&quot;</li>
+<li>Umbenennung der Rollen, nicht nur der Aufgaben: „Angebotsspezialist&quot; wird nicht „Angebotskontrolleur&quot;, sondern beispielsweise „Angebotsverantwortlicher&quot; — der Blick geht nach oben, nicht nach unten.</li>
+<li>Neue Kompetenzen sichtbar machen: Prompt-Design, Qualitäts-Review, KI-Eskalation — alle drei sind bewertbar, schulbar, ausweisbar.</li>
+</ul>
+<h3>Technische Ebene</h3>
+<ul>
+<li>Prozess-Redesign: Visualisierung als Soll-Prozess (BPMN oder einfacher Fluss) pro Kernanwendungsfall.</li>
+<li>Einbau von Human-in-the-Loop-Schranken: Die KI generiert Vorschläge, die finale Freigabe ist technisch erzwungen. Kein „Nachher-Check&quot;, sondern Freigabe als Prozessschritt.</li>
+<li>Rollenspezifische Oberflächen: Unterschiedliche Views je Rolle, angepasst an den Bedienkontext.</li>
+<li>Prompt-Vorlagen: Versionierte, geprüfte Prompts werden zentral gepflegt und pro Use Case bereitgestellt.</li>
+<li>Integration in bestehende Kernsysteme (ERP, CRM, DMS) statt paralleler Tool-Landschaft.</li>
+</ul>
+<h3>EU-AI-Act-Bezüge</h3>
+<ul>
+<li>Art. 13 (Transparenz, Erklärbarkeit): Jeder Kernanwendungsfall erhält eine Nutzer-Dokumentation in verständlicher Sprache.</li>
+<li>Art. 50 (Kennzeichnung generativer Inhalte): KI-erzeugte Inhalte werden technisch gekennzeichnet, wo Verordnungen dies fordern.</li>
+<li>Art. 14 (Menschliche Aufsicht): Die Human-in-the-Loop-Schranken sind die operative Umsetzung dieses Artikels.</li>
+</ul>
+<p>Nachweise: Modelldokumentation, Wasserzeichen / Labels, HITL-Protokolle, Nutzungsanweisungen.</p>
+<h3>Typische Fallstricke in Phase I</h3>
+<ul>
+<li>Prozesse werden nicht geschnitten, sondern nur ergänzt: Die KI wird „zusätzlich&quot; bereitgestellt, ohne dass alte Aufgaben entfallen. Das Ergebnis: mehr Arbeit statt weniger.</li>
+<li>Identität wird übergangen: Wer Rollen nicht benennt, lässt Angst übrig.</li>
+<li>HITL wird zur Schein-Aufsicht: Freigabe-Klicks ohne inhaltliche Prüfung. Die Organisation gewöhnt sich daran, die KI nicht zu prüfen — genau der Moment, an dem Workslop skaliert.</li>
+</ul>
+<h3>Wirkung und Übergang</h3>
+<p>Ergebnis: KI ist nicht mehr Zusatz, sondern Bestandteil des Prozesses. Rollen sind klar, Freigabepunkte sind technisch erzwungen, der realisierte Geschäftswert ist dokumentiert. Übergang in Phase F, sobald alle drei bis fünf Kernanwendungsfälle produktiv laufen.</p>
+<div class="phase-banner"><div class="letter">F</div><div class="text"><h2>F — Fokussieren</h2><div class="subtitle">Auf wenige wirksame Fälle konzentrieren</div></div></div>
+<p><em>„Mehr Werkzeuge bedeutet nicht mehr Fortschritt. Mehr Tiefe bedeutet mehr Fortschritt.&quot;</em></p>
+<h3>Ausgangslage</h3>
+<p>Nach Phase I laufen drei bis fünf Kernanwendungsfälle produktiv. Die Versuchung ist groß, jetzt in die Breite zu gehen: mehr Use Cases, mehr Tools, mehr Abteilungen. Genau dort scheitern viele Organisationen — nicht an Ideenmangel, sondern an zu vielen Ideen gleichzeitig.</p>
+<h3>Zielzustand</h3>
+<p>Die Organisation konzentriert ihre Mittel auf die wirksamen Anwendungsfälle. Die technische Grundlage ist skalier- und wartbar, rechtssicher. Schatten-KI ist abgebaut. Governance-Strukturen sind operativ, nicht nur dokumentiert.</p>
+<h3>Business-Ebene — Konsolidierung nach Wertbeitrag</h3>
+<p>Die kritische Durchsicht aller eingesetzten KI-Werkzeuge erfolgt nicht technisch, sondern nach Wertbeitrag. Werkzeuge, die keinem Use Case aus der priorisierten Liste dienen, werden abgeschaltet. Doppelungen werden aufgelöst. Ergebnis: weniger Werkzeuge, tiefere Beherrschung, klarere Business-Zuordnung.</p>
+<p>Pragmatisches Vorgehen: Tool-Matrix erstellen (Tool × Use Case), Leerzellen identifizieren, Tools ohne klare Zuordnung abschalten. In der Regel reduziert sich die Tool-Anzahl um 30–50 Prozent.</p>
+<h3>Menschliche Ebene</h3>
+<p>Mitarbeiter und Führungskräfte lernen, Tool-Dichte nicht mit Fortschritt zu verwechseln. Die Nachfrage nach zusätzlicher Tool-Vielfalt nimmt ab, die Nachfrage nach Vertiefung nimmt zu. Das ist kein Kulturprogramm, sondern ein Effekt gelebter Fokussierung: Wer in drei Werkzeugen wirklich gut ist, verlangt nicht mehr nach dem vierten.</p>
+<h3>Technische Ebene — drei Bausteine mit Business-Begründung</h3>
+<p>Die technischen Bausteine sind nicht Selbstzweck. Jeder wird durch einen konkreten Business-Bedarf ausgelöst:</p>
+<p><strong>Governance und MLOps</strong></p>
+<p>Erforderlich, weil die produktiven Use Cases revisionssicher und rechtskonform betrieben werden müssen. Ohne MLOps kein nachweisbarer Betrieb — und damit keine Skalierbarkeit über das Pilotstadium hinaus. Kernkomponenten: Model-Registry, Deployment-Pipeline, Monitoring (Drift, Latenz, Qualität), Rollback-Fähigkeit.</p>
+<p><strong>Policy-as-Code</strong></p>
+<p>Erforderlich, weil manuelle Prüfungen in einer skalierenden Nutzung nicht mitwachsen. Regeln aus DSGVO, EU AI Act und internen Richtlinien werden technisch erzwungen, sobald mehrere Use Cases in mehreren Bereichen laufen. Typische Beispiele: automatische Redaktion personenbezogener Daten, automatische Kennzeichnung generativer Inhalte, Audit-Trails pro Entscheidung.</p>
+<p><strong>Semantic Layer und MCP</strong></p>
+<p>Erforderlich, wenn die Use Cases auf unternehmensweite Kontextinformationen zugreifen müssen oder wenn agentische KI eingesetzt wird. Ohne diese Schicht produziert agentische KI systematisch Workslop — oberflächlich fehlerfreie, aber substanzlose Ergebnisse. Das Model Context Protocol (MCP) standardisiert die Kommunikation zwischen Modellen, Datenquellen und Werkzeugen und reduziert Anbieter-Bindung.</p>
+<p>Hintergrund: Gartner prognostiziert, dass bis 2027 über 40 Prozent der agentischen KI-Projekte an der Unvereinbarkeit mit Altsystemen scheitern. Datenqualität und Governance verursachen durchschnittlich 15 Millionen US-Dollar Kosten pro Jahr.</p>
+<h3>EU-AI-Act-Bezüge</h3>
+<ul>
+<li>Art. 9 (Risikomanagement): etabliertes, fortlaufendes Verfahren.</li>
+<li>Art. 14 (Menschliche Aufsicht): technisch umgesetzt in HITL-Schranken, organisatorisch in Aufsichtsrollen.</li>
+<li>Art. 43 (Konformitätsbewertung Hochrisiko): sofern anwendbar.</li>
+</ul>
+<p>Nachweise: KI-Governance-Komitee mit Geschäftsordnung, benannte Aufsichtsrollen, Audit-Trails, Konformitätserklärung, ggf. EU-Registereintrag.</p>
+<h3>Typische Fallstricke in Phase F</h3>
+<ul>
+<li>Fokussierung wird als „weniger KI&quot; missverstanden: Der Abbau von Tools wird als Rückschritt kommuniziert — statt als Tiefung.</li>
+<li>Governance ohne Business-Bezug: Ein KI-Ausschuss, der keine Use Cases diskutiert, wird zum Theater.</li>
+<li>Agentic AI ohne Semantic Layer: Führt reproduzierbar zu Workslop. In Phase F muss der Semantic Layer vor agentischen Use Cases stehen, nicht umgekehrt.</li>
+</ul>
+<h3>Wirkung und Übergang</h3>
+<p>Ergebnis: Weniger Werkzeuge, tiefere Beherrschung, rechtssicherer Betrieb, skalierbare Architektur. Die Organisation ist bereit, KI zur selbstverständlichen Arbeitsroutine zu machen.</p>
+<div class="phase-banner"><div class="letter">T</div><div class="text"><h2>T — Tragen</h2><div class="subtitle">In den Alltag überführen, Wirkung messen</div></div></div>
+<p><em>„Wirkung, die sich nicht im Alltag reproduziert, ist keine Wirkung. Sie ist eine Erinnerung.&quot;</em></p>
+<h3>Ausgangslage</h3>
+<p>Die Anwendungsfälle laufen produktiv. Die Gefahr: Rückbildung nach Projektende. Die Organisation verliert die Rituale, die Fehlerkultur erodiert, Prompt-Qualität sinkt, alte Gewohnheiten kehren zurück.</p>
+<h3>Zielzustand</h3>
+<p>KI-Nutzung ist Teil der Arbeitsroutine. Veränderungen an Modellen, Daten und Richtlinien werden in einem definierten Rhythmus verarbeitet. Wirkung wird fortlaufend gemessen — nicht nur technisch, sondern geschäftlich.</p>
+<h3>Business-Ebene — laufender Wertbeitrag pro Use Case</h3>
+<p>Für jeden Kernanwendungsfall wird der Geschäftswert monatlich gemessen und in einem Dashboard gepflegt. Nicht nur technische Modellgüte, sondern realisierte Einsparung, vermiedener Schaden, zusätzlicher Umsatz. Das ermöglicht später belastbare Erfolgskommunikation intern und extern.</p>
+<p><strong>Kernkennzahlen pro Use Case:</strong></p>
+<ul>
+<li>Realisierter Nutzen (EUR/Monat), verglichen mit Baseline vor Start.</li>
+<li>Durchlaufzeit (Median und 90. Perzentil).</li>
+<li>Qualitätsquote (Fehler pro 100 Vorgänge).</li>
+<li>Nutzungsrate (Anteil der berechtigten Nutzer, die das System im Monat aktiv verwenden).</li>
+<li>Fixing Time (Zeit zum Nachbessern eines KI-Ergebnisses — die einzige Zahl, die Workslop zuverlässig entlarvt).</li>
+</ul>
+<h3>Menschliche Ebene</h3>
+<p>Neue Verhaltensweisen halten nur durch wiederkehrende Strukturen (ADKAR Reinforcement). Prompt-Bibliotheken, kurze Austauschformate, Integration in Zielvereinbarungen.</p>
+<p><strong>Konkrete Rituale:</strong></p>
+<ul>
+<li>„Prompt-Gipfel&quot; pro Quartal: 60 Minuten, die besten drei Prompts je Abteilung werden geteilt und in die zentrale Bibliothek aufgenommen.</li>
+<li>Reverse Mentoring: Junge oder technikaffine Mitarbeiter geben Führungskräften KI-Stunden. Dreht Hierarchie-Dynamiken gezielt um und baut Angst ab.</li>
+<li>Jahresgespräch-Erweiterung: Eine Kompetenzdimension „KI-Souveränität&quot; wird in Zielvereinbarungen aufgenommen — als Wachstumsfeld, nicht als Sanktion.</li>
+</ul>
+<h3>Technische Ebene</h3>
+<ul>
+<li>Dashboards zur Leistungsüberwachung (Modellgüte, Drift, Latenz).</li>
+<li>Dashboards zur Wirkungsmessung (Durchlaufzeit, Kosten, Qualität, Fixing Time).</li>
+<li>Rückkopplungsschleifen: Nutzerkorrekturen fließen in die Weiterentwicklung.</li>
+<li>Change-Prozess für Modelle und Prompts: Versionierung, Freigabe, Rollback-Fähigkeit.</li>
+</ul>
+<p>Neu in V6: Explizite Trennung zwischen Wirkung und Workslop durch die Fixing-Time-Messung. Nur wenn sowohl Bearbeitungszeit als auch Nachbearbeitungszeit sinken, liegt echte Wirkung vor. Der Anthropic Economic Index zeigt: Bei gezielter Augmentation bis zu 80 Prozent Zeitersparnis. Bei reiner Automatisierung ohne Centauren-Muster: oft Nullsumme, teilweise sogar negativer Netto-Effekt.</p>
+<h3>EU-AI-Act-Bezüge</h3>
+<ul>
+<li>Art. 72 (Post-Market-Monitoring): automatisierte Überwachungsprotokolle für Model Drift, Bias, Datenqualität.</li>
+<li>Art. 73 (Meldung schwerer Vorfälle): Prozess und Zuständigkeit dokumentiert.</li>
+</ul>
+<p>Nachweise: MLOps-Audit-Trails, automatisierte Warnmeldungen, Meldeverfahren.</p>
+<h3>Typische Fallstricke in Phase T</h3>
+<ul>
+<li>Wirkung wird nicht gemessen — nur Nutzung: Eine hohe Login-Zahl ist kein Geschäftswert.</li>
+<li>Workslop wird ignoriert: Die Fixing Time wird nicht erhoben, weil sie unbequem ist. Genau deshalb muss sie erhoben werden.</li>
+<li>Die Rituale sterben: Nach sechs Monaten ohne Reinforcement fällt die Nutzung in alte Muster zurück. Das ist der mit Abstand häufigste Grund, warum erfolgreiche Piloten nicht zu dauerhafter Wirkung werden.</li>
+</ul>
+<h3>Wirkung und Übergang</h3>
+<p>Ergebnis: KI-Nutzung als Teil der Arbeitsroutine, monatlich belegter Wertbeitrag, lebendige Fehler- und Lernkultur, rechts- und betriebssichere Architektur. Die Einführung ist kein Projekt mehr — sie ist ein permanenter Prozess. Genau das ist das Ziel.</p>
+</section><section class="chapter"><h1 id="4-synchronität-in-einer-übersicht"><span class="chapter-number">Kapitel 4</span>Synchronität in einer Übersicht</h1>
+<p>Die folgende Matrix zeigt, was in jeder Phase auf beiden Ebenen simultan passiert. Sie ist als Arbeitsblatt gedacht, nicht nur als Darstellung.</p>
+<div class="table-wrap"><table><thead><tr><th><strong>Phase</strong></th><th><strong>Business-Anker</strong></th><th><strong>Menschliche Ebene</strong></th><th><strong>Technische Ebene</strong></th><th><strong>Kernartefakt</strong></th></tr></thead><tbody><tr><td>S — Sichten</td><td>Welcher Engpass lohnt sich?</td><td>Angst-Kartografie, Mindset-Assessment</td><td>Daten-Audit, KI-Inventar</td><td>Priorisierte Use-Case-Liste</td></tr><tr><td>H — Handeln</td><td>Können wir den Wert realisieren?</td><td>Growth-Mindset-Übung, Fehlerkultur-Rituale</td><td>Sandbox, Foundation-Modelle</td><td>Pilot-Auswertung + Prompt-Tagebücher</td></tr><tr><td>I — Integrieren</td><td>Wie schneiden wir Rollen neu?</td><td>Identitätsarbeit, neue Rollenbilder</td><td>HITL-Schranken, Prozess-Redesign</td><td>Soll-Prozesse + Rollendefinitionen</td></tr><tr><td>F — Fokussieren</td><td>Wo liegt der größte Hebel?</td><td>Fokus vor Vielfalt als Haltung</td><td>Governance, MLOps, Semantic Layer</td><td>Konsolidierte Architektur + Governance</td></tr><tr><td>T — Tragen</td><td>Hält die Wirkung?</td><td>Reinforcement-Rituale, Reverse Mentoring</td><td>Monitoring, Fixing-Time-Messung</td><td>Wirkungs-Dashboard + Change-Prozess</td></tr></tbody></table></div>
+<p>Die Matrix folgt einer strikten Logik: Die Business-Spalte führt, die beiden Ebenen sind nachgeordnet. Wer die Reihenfolge ändert, verliert das Prinzip.</p>
+</section><section class="chapter"><h1 id="5-branchenspezifische-zuordnung-der-phasen"><span class="chapter-number">Kapitel 5</span>Branchenspezifische Zuordnung der Phasen</h1>
+<p>Kritikalität: + unterdurchschnittlich, ++ durchschnittlich, +++ überdurchschnittlich, ++++ zentral.</p>
+<div class="table-wrap"><table><thead><tr><th><strong>Branche</strong></th><th><strong>S</strong></th><th><strong>H</strong></th><th><strong>I</strong></th><th><strong>F</strong></th><th><strong>T</strong></th><th><strong>Leitsatz</strong></th></tr></thead><tbody><tr><td>Industrie / Fertigung</td><td>+++</td><td>+++</td><td>++++</td><td>+++</td><td>++</td><td>Fehlervermeidung und Predictive Maintenance vor Effizienz.</td></tr><tr><td>Handel / E-Commerce</td><td>++</td><td>+++</td><td>+++</td><td>+++</td><td>++++</td><td>Personalisierung und Zeitersparnis, Skalierung entscheidet.</td></tr><tr><td>Finanzdienstleistungen</td><td>++++</td><td>++</td><td>+++</td><td>++++</td><td>++++</td><td>Regulatorik und Audit in jeder Phase präsent, Governance zentral.</td></tr><tr><td>Gesundheit / Pharma</td><td>++++</td><td>+</td><td>+++</td><td>++++</td><td>+++</td><td>Risikoklassifizierung dominiert Phase S.</td></tr><tr><td>Professional Services</td><td>++</td><td>++++</td><td>++++</td><td>++</td><td>+++</td><td>Rollenverschiebung ist Kernhebel, Tempo in H entscheidet.</td></tr><tr><td>Öffentliche Verwaltung</td><td>++++</td><td>+</td><td>+++</td><td>+++</td><td>+++</td><td>Hochrisiko-Fälle nach Anhang III, strenge Dokumentationspflicht.</td></tr><tr><td>Logistik / Transport</td><td>+++</td><td>+++</td><td>+++</td><td>++</td><td>++++</td><td>Prognosen und Routing dominieren, Alltagstauglichkeit entscheidet.</td></tr></tbody></table></div>
+<p>Ergänzend: Die Use-Case-Kategorien gewichten sich branchenspezifisch unterschiedlich. In der Industrie dominieren Fehlervermeidung und Predictive Maintenance. Im Handel Zeitersparnis und Personalisierung. In Finanz Betrugserkennung und Prognose. Die Business-Ebene in Phase S berücksichtigt diese Gewichtung bei der Auswahl der Pain-Point-Kategorien.</p>
+</section><section class="chapter"><h1 id="6-kennzahlen-je-phase-und-unternehmensgröße"><span class="chapter-number">Kapitel 6</span>Kennzahlen je Phase und Unternehmensgröße</h1>
+<p>Zielwerte aus McKinsey-, BCG-, IDC-, Deloitte- und Prosci-Daten. Orientierung für den Gate-Abschluss. Größenklassen: Klein (bis 50 MA), Mittelstand (50–500), Mittlere Konzerneinheit (500–3.000), Großkonzern (über 3.000) im Zielbereich.</p>
+<div class="phase-banner"><div class="letter">S</div><div class="text"><h2>S — Sichten</h2><div class="subtitle">Geschäftsproblem, Menschen und Daten sauber erfassen</div></div></div>
+<div class="table-wrap"><table><thead><tr><th><strong>Kennzahl</strong></th><th><strong>Klein</strong></th><th><strong>Mittelstand</strong></th><th><strong>Mittlere KE</strong></th><th><strong>Großkonzern</strong></th></tr></thead><tbody><tr><td>Identifizierte Use Cases</td><td>≥ 8</td><td>≥ 15</td><td>≥ 25</td><td>≥ 40</td></tr><tr><td>Priorisierte Use Cases (4-D bestanden)</td><td>3–5</td><td>5–8</td><td>8–12</td><td>12–20</td></tr><tr><td>Business Value Summe (EUR/Jahr, Baseline)</td><td>≥ 150k</td><td>≥ 750k</td><td>≥ 3 Mio</td><td>≥ 10 Mio</td></tr><tr><td>Mitarbeiter mit Mindset-Assessment (%)</td><td>100</td><td>≥ 60</td><td>≥ 40</td><td>≥ 25</td></tr><tr><td>Datenqualität dokumentiert (Use-Case-Abdeckung %)</td><td>100</td><td>100</td><td>100</td><td>100</td></tr></tbody></table></div>
+<div class="phase-banner"><div class="letter">H</div><div class="text"><h2>H — Handeln</h2><div class="subtitle">Erste kontrollierte Erfahrungen mit priorisierten Use Cases</div></div></div>
+<div class="table-wrap"><table><thead><tr><th><strong>Kennzahl</strong></th><th><strong>Klein</strong></th><th><strong>Mittelstand</strong></th><th><strong>Mittlere KE</strong></th><th><strong>Großkonzern</strong></th></tr></thead><tbody><tr><td>Laufende Piloten</td><td>2</td><td>2–4</td><td>3–5</td><td>4–6</td></tr><tr><td>Pilot-Dauer (Wochen)</td><td>≤ 12</td><td>≤ 12</td><td>≤ 14</td><td>≤ 16</td></tr><tr><td>Piloten mit Business-Value-Nachweis (%)</td><td>≥ 60</td><td>≥ 60</td><td>≥ 55</td><td>≥ 50</td></tr><tr><td>AI-Literacy-Quote Zielgruppe (%)</td><td>≥ 80</td><td>≥ 70</td><td>≥ 60</td><td>≥ 50</td></tr><tr><td>After-Action-Reviews durchgeführt</td><td>100 %</td><td>100 %</td><td>100 %</td><td>100 %</td></tr></tbody></table></div>
+<div class="phase-banner"><div class="letter">I</div><div class="text"><h2>I — Integrieren</h2><div class="subtitle">Rollen, Aufgaben und Arbeitsabläufe neu schneiden</div></div></div>
+<div class="table-wrap"><table><thead><tr><th><strong>Kennzahl</strong></th><th><strong>Klein</strong></th><th><strong>Mittelstand</strong></th><th><strong>Mittlere KE</strong></th><th><strong>Großkonzern</strong></th></tr></thead><tbody><tr><td>Produktive Kernanwendungsfälle</td><td>2–3</td><td>3–5</td><td>4–6</td><td>5–8</td></tr><tr><td>Durchlaufzeit-Reduktion (%)</td><td>≥ 25</td><td>≥ 30</td><td>≥ 30</td><td>≥ 30</td></tr><tr><td>HITL-Quote (abhängig Use-Case-Kritikalität)</td><td>nach Risiko</td><td>nach Risiko</td><td>nach Risiko</td><td>nach Risiko</td></tr><tr><td>Rollenbilder aktualisiert (%)</td><td>100</td><td>100</td><td>100</td><td>100</td></tr></tbody></table></div>
+<div class="phase-banner"><div class="letter">F</div><div class="text"><h2>F — Fokussieren</h2><div class="subtitle">Auf wenige wirksame Fälle konzentrieren</div></div></div>
+<div class="table-wrap"><table><thead><tr><th><strong>Kennzahl</strong></th><th><strong>Klein</strong></th><th><strong>Mittelstand</strong></th><th><strong>Mittlere KE</strong></th><th><strong>Großkonzern</strong></th></tr></thead><tbody><tr><td>Tool-Reduktion (%)</td><td>≥ 20</td><td>≥ 30</td><td>≥ 40</td><td>≥ 40</td></tr><tr><td>Governance-Struktur operativ</td><td>vorhanden</td><td>vorhanden</td><td>vorhanden</td><td>vorhanden</td></tr><tr><td>Policy-as-Code-Abdeckung (%)</td><td>≥ 50</td><td>≥ 70</td><td>≥ 80</td><td>≥ 90</td></tr><tr><td>Schatten-KI-Fälle reduziert (%)</td><td>≥ 80</td><td>≥ 80</td><td>≥ 80</td><td>≥ 80</td></tr></tbody></table></div>
+<div class="phase-banner"><div class="letter">T</div><div class="text"><h2>T — Tragen</h2><div class="subtitle">In den Alltag überführen, Wirkung messen</div></div></div>
+<div class="table-wrap"><table><thead><tr><th><strong>Kennzahl</strong></th><th><strong>Klein</strong></th><th><strong>Mittelstand</strong></th><th><strong>Mittlere KE</strong></th><th><strong>Großkonzern</strong></th></tr></thead><tbody><tr><td>Monatlich dokumentierter Wertbeitrag</td><td>ja</td><td>ja</td><td>ja</td><td>ja</td></tr><tr><td>Fixing Time / Bearbeitungszeit</td><td>≤ 25 %</td><td>≤ 25 %</td><td>≤ 25 %</td><td>≤ 25 %</td></tr><tr><td>Nutzungsrate Kern-Use-Cases (%)</td><td>≥ 70</td><td>≥ 70</td><td>≥ 70</td><td>≥ 70</td></tr><tr><td>Quartals-Prompt-Gipfel durchgeführt</td><td>ja</td><td>ja</td><td>ja</td><td>ja</td></tr></tbody></table></div>
+</section><section class="chapter"><h1 id="7-eu-ai-act-mapping-entlang-der-phasen"><span class="chapter-number">Kapitel 7</span>EU-AI-Act-Mapping entlang der Phasen</h1>
+<p>Der EU AI Act (Verordnung 2024/1689) verpflichtet Unternehmen zu konkreten Maßnahmen. SHIFT integriert diese Pflichten in die Phasenlogik. Compliance wird nicht nachgelagert, sondern phasenbegleitend aufgebaut.</p>
+<h2 id="71-pflichten-je-phase">7.1  Pflichten je Phase</h2>
+<div class="table-wrap"><table><thead><tr><th><strong>Phase</strong></th><th><strong>Relevante Artikel</strong></th><th><strong>Konkrete Nachweise</strong></th></tr></thead><tbody><tr><td>S</td><td>Art. 4, 10, 11</td><td>Daten-Audit, KI-Inventar mit Risikokategorisierung, AI-Literacy-Gap-Analyse</td></tr><tr><td>H</td><td>Art. 4, 5</td><td>Schulungsnachweise, Verbots-Check pro Pilot</td></tr><tr><td>I</td><td>Art. 13, 14, 50</td><td>Modelldokumentation, HITL-Protokolle, Kennzeichnung generativer Inhalte, Nutzungsanweisungen</td></tr><tr><td>F</td><td>Art. 9, 14, 43</td><td>Risikomanagement-Prozess, Aufsichtsrollen, Konformitätserklärung, ggf. Registereintrag</td></tr><tr><td>T</td><td>Art. 72, 73</td><td>Post-Market-Monitoring, Vorfall-Meldeprozess, Audit-Trails</td></tr></tbody></table></div>
+<h2 id="72-fristen">7.2  Fristen</h2>
+<ul>
+<li>02.02.2025: Verbote (Art. 5), AI-Literacy-Pflicht (Art. 4) in Kraft.</li>
+<li>02.08.2025: GPAI-Modelle und Governance-Strukturen.</li>
+<li>02.08.2026: Großteil der Hochrisiko-Pflichten anwendbar.</li>
+<li>02.08.2027: Hochrisiko-Pflichten auch für bestehende Systeme im öffentlichen Bereich.</li>
+</ul>
+<h2 id="73-hochrisiko-ki">7.3  Hochrisiko-KI</h2>
+<p>Fällt ein Anwendungsfall unter Anhang III, verschieben sich die Anforderungen nach vorn. Konkret:</p>
+<ul>
+<li>Phase S enthält eine verpflichtende Risikoklassifizierung je Use Case.</li>
+<li>Phase F ist nicht optional, sondern verpflichtend. Ohne Phase F kein produktiver Hochrisiko-Betrieb.</li>
+<li>Die Gate-Kriterien werden um formale Compliance-Prüfungen ergänzt.</li>
+</ul>
+</section><section class="chapter"><h1 id="8-gate-audit-abschluss-jeder-phase"><span class="chapter-number">Kapitel 8</span>Gate-Audit: Abschluss jeder Phase</h1>
+<p>Jede Phase wird durch ein Gate abgeschlossen. Ohne bestandenes Gate beginnt die Folgephase nicht. Das Gate ist kein Meeting, sondern ein formaler Akt mit Vorbereitung, Prüfung, Entscheidung und Dokumentation.</p>
+<h2 id="81-grundlogik">8.1  Grundlogik</h2>
+<p>Ein Gate prüft vier Dinge:</p>
+<ol>
+<li>Business-Ergebnisse: Liegen die priorisierten Use Cases und der nachgewiesene Wert vor?</li>
+<li>Kennzahlen: Sind die Zielwerte aus Kapitel 6 erreicht?</li>
+<li>Artefakte: Liegen alle Pflichtartefakte vor (Anhang B)?</li>
+<li>EU-AI-Act-Pflichten: Sind die in Kap. 7 genannten Nachweise erbracht?</li>
+</ol>
+<p>Audit-Team: Auftraggeber (typisch Geschäftsführung oder Bereichsleitung), fachliche Prüfung (Mindshift KI), unabhängige Prüfung (z. B. Compliance oder Interne Revision).</p>
+<h2 id="82-ablauf">8.2  Ablauf</h2>
+<ul>
+<li>Vorbereitung (1 Woche): Gate-Dossier erstellen.</li>
+<li>Prüfung (1 Tag): Audit-Team prüft Dossier.</li>
+<li>Entscheidung (halber Tag): bestanden / bedingt / nicht bestanden.</li>
+<li>Dokumentation: Protokoll signiert und archiviert.</li>
+</ul>
+<h2 id="83-pflichtartefakte-je-phase">8.3  Pflichtartefakte je Phase</h2>
+<div class="table-wrap"><table><thead><tr><th><strong>Phase</strong></th><th><strong>Pflichtartefakte</strong></th></tr></thead><tbody><tr><td>S</td><td>Use-Case-Liste mit 4-D-Bewertung, Impact/Effort-Matrix, Mindset-Lagebericht, Daten-Audit, KI-Inventar</td></tr><tr><td>H</td><td>Pilot-Chartas, Abbruchkriterien, Pilot-Auswertungen, Prompt-Tagebücher, Pre-Mortem- und AAR-Protokolle</td></tr><tr><td>I</td><td>Soll-Prozesse, Rollendefinitionen, HITL-Spezifikationen, Nutzungsanweisungen, Identitäts-Gesprächsprotokolle</td></tr><tr><td>F</td><td>Tool-Konsolidierungsbericht, Governance-Charta, MLOps-Architektur, Policy-as-Code-Regelwerk, Semantic-Layer-Architektur</td></tr><tr><td>T</td><td>Wirkungs-Dashboard, Fixing-Time-Messung, Change-Prozess, Post-Market-Monitoring, Vorfall-Meldeprozess</td></tr></tbody></table></div>
+<h2 id="84-gate-begleitende-rituale">8.4  Gate-begleitende Rituale</h2>
+<ul>
+<li>Pre-Mortem am Eingang einer Phase: Welche Risiken könnten die nächste Phase zum Scheitern bringen? Maßnahmen zuordnen.</li>
+<li>After-Action-Review am Ausgang einer Phase mit vier Leitfragen: Was sollte passieren? Was ist passiert? Warum gab es eine Abweichung? Was ändert sich in der nächsten Phase?</li>
+</ul>
+<h2 id="85-drei-gate-ergebnisse">8.5  Drei Gate-Ergebnisse</h2>
+<ul>
+<li>Bestanden: Phase vollständig abgeschlossen, Folgephase beginnt.</li>
+<li>Bedingt (Auflage): Phase abgeschlossen, definierte Lücke mit Termin.</li>
+<li>Nicht bestanden: Phase wird fortgesetzt, bis Kriterien erfüllt sind. Kein Überspringen.</li>
+</ul>
+<p>Eine vierte Option: Teil-Gate. Nur ein Teilbereich wird freigegeben, die übrigen bleiben in der Phase. Sinnvoll bei großen Organisationen mit heterogenem Fortschritt zwischen Bereichen.</p>
+</section><section class="chapter"><h1 id="9-standard-arbeitspakete-und-preisarchitektur"><span class="chapter-number">Kapitel 9</span>Standard-Arbeitspakete und Preisarchitektur</h1>
+<p>Value-Ladder-Prinzip: Einstieg, Kernangebote, spezialisierte Sprints, kontinuierliche Begleitung. Zusätzlich erfolgsabhängige Preismodelle.</p>
+<h2 id="91-angebot-im-überblick">9.1  Angebot im Überblick</h2>
+<div class="table-wrap"><table><thead><tr><th><strong>ID</strong></th><th><strong>Produkt</strong></th><th><strong>Dauer</strong></th><th><strong>Kernnutzen</strong></th></tr></thead><tbody><tr><td>P1</td><td>SHIFT Assessment</td><td>4–6 Wochen</td><td>Priorisierte Use-Case-Liste, Investitionsentscheidungs-Input</td></tr><tr><td>P2</td><td>SHIFT Sprint</td><td>12 Wochen</td><td>2–4 Piloten auf P1-Basis, 3 Kernanwendungsfälle inkl. HITL</td></tr><tr><td>P3</td><td>SHIFT Begleitung</td><td>9–18 Monate</td><td>Vollständige fünf Phasen inkl. Governance, MLOps, Dashboards</td></tr><tr><td>P4</td><td>Fokus-Sprint</td><td>6–8 Wochen</td><td>Phase F isoliert bei Tool-Wildwuchs</td></tr><tr><td>P5</td><td>Integrations-Sprint</td><td>8–10 Wochen</td><td>Phase I isoliert für Rollen- und Prozess-Neuschnitt</td></tr><tr><td>P6</td><td>Betriebs-Retainer</td><td>monatlich</td><td>Laufende Begleitung, halbjährlicher Gate-T-Review</td></tr><tr><td>P7</td><td>Impuls / Keynote</td><td>1 Tag</td><td>Sichtbarkeit, Einladung ins Framework</td></tr></tbody></table></div>
+<h2 id="92-p1-shift-assessment-das-einstiegsprodukt">9.2  P1 SHIFT Assessment — das Einstiegsprodukt</h2>
+<p>Das Einstiegsprodukt liefert ein deutlich klareres Kernergebnis als übliche „Readiness Assessments&quot;:</p>
+<ul>
+<li>Hauptergebnis: Priorisierte Use-Case-Liste mit Vier-Dimensionen-Bewertung und quantifiziertem Business Value (EUR/Jahr) pro Use Case. Impact/Effort-Matrix. Empfehlung: Welche 2–4 Use Cases sollten in den SHIFT Sprint gehen?</li>
+<li>Begleitergebnisse: Mindset-Lagebild, Daten-Inventar, KI-Inventar mit Risikokategorisierung, Angst-Kartografie.</li>
+<li>Handlungsempfehlung für den Folgeschritt (P2, P4 oder anderes).</li>
+</ul>
+<p>Das Assessment ist damit ein eigenständig wertvolles Produkt, nicht nur eine Beratungs-Anbahnung. Der Kunde erhält einen belastbaren Investitionsentscheidungs-Input — mit oder ohne Folgeauftrag.</p>
+<h2 id="93-paket-beschreibungen">9.3  Paket-Beschreibungen</h2>
+<p>P2 SHIFT Sprint: 12 Wochen, 2–4 Piloten aus P1-Liste, 3 Kernanwendungsfälle inkl. HITL. Enthält Sandbox-Aufbau, Fehlerkultur-Rituale, erste Prompt-Bibliothek, Pilot-Auswertung mit Empfehlung.</p>
+<p>P3 SHIFT Begleitung: Vollständige fünf Phasen inkl. Governance, MLOps, Compliance, Dashboards. Typische Laufzeit 9–18 Monate. Mit halbjährlichen Gate-Reviews.</p>
+<p>P4 Fokus-Sprint: Phase F isoliert — für Organisationen, die aus eigener Kraft in die Tool-Überflutung geraten sind und konsolidieren müssen, bevor sie skalieren.</p>
+<p>P5 Integrations-Sprint: Phase I isoliert — für Rollen- und Prozess-Neuschnitt, wenn die Piloten bereits laufen, aber die Arbeit nicht wirklich umgeschnitten wurde.</p>
+<p>P6 Betriebs-Retainer: Monatliche Begleitung nach abgeschlossener SHIFT-Begleitung. Halbjährlicher Gate-T-Review, laufende Fehlerkultur-Rituale, Update der Governance bei Regulatorik-Änderungen.</p>
+<p>P7 Impuls: Keynote nach neun Schritten (Geisselhart). Nicht als Marketing, sondern als fachlicher Einstieg in die Business-First-Logik — für Führungskreise, Verbände, Summits.</p>
+<h2 id="94-erfolgsabhängige-preismodelle">9.4  Erfolgsabhängige Preismodelle</h2>
+<p>Voraussetzungen: robuste Messinfrastruktur (Phase T), vereinbarte Baseline (Phase S), vertragliche Absicherung, passende Organisationsreife. Wird zusätzlich zum Festpreis angeboten, nie anstelle.</p>
+<ul>
+<li>Outcome-based: fester Prozentsatz am realisierten Wertbeitrag (z. B. 10 % der dokumentierten EUR-Einsparung in Monat 4–12).</li>
+<li>Value-based: Pauschale, die sich am Business Case orientiert, nicht am Aufwand.</li>
+<li>Success-based: Bonus bei Gate-T-Erfolg, Malus bei Verfehlung definierter Zielwerte.</li>
+</ul>
+<h2 id="95-abgrenzung-zu-marktbenchmarks">9.5  Abgrenzung zu Marktbenchmarks</h2>
+<p>Senior Consultant 150–300 EUR/h, KI/ML-Experte 300–600 EUR/h (AIDOLS, Abbacus). Projektvolumina Mittelstand 30–150 k EUR, mittlere Konzerneinheit 150–500 k EUR. SHIFT-Pakete liegen im oberen Bereich dieser Bänder, begründet durch: Builder-Strategist-Prinzip, Business-First-Methodik, regulatorische Orientierung, durchgängige Umsetzungsverantwortung aus einer Hand.</p>
+</section><section class="chapter"><h1 id="10-führungsperspektive-fünf-haltungsverschiebungen"><span class="chapter-number">Kapitel 10</span>Führungsperspektive: Fünf Haltungsverschiebungen</h1>
+<p>Ohne Verschiebung in der Führungshaltung bleibt jede KI-Einführung isoliert. RAND belegt: 84 Prozent der KI-Fehlschläge gehen auf Führungsversagen zurück. Nicht primär strategische Fehlentscheidungen, sondern Haltungsprobleme in konkreten Verhaltensweisen.</p>
+<p>Fünf Verschiebungen sind belegt (Forbes, basierend auf Studien zur KI-Transformation). SHIFT übersetzt sie in konkrete Sätze und Rituale.</p>
+<p>Die folgenden fünf Haltungsverschiebungen spiegeln eine These, die Zack Kass als Kernprinzip der KI-Ära formuliert: „KI wird Dinge billig machen und sie wird Menschen wertvoll (precious) machen.“ Und weiter: „Im Zeitalter der KI wird verhaltensbezogene Anpassungsfähigkeit die wahre Währung der Arbeit sein.“ Führung in der KI-Einführung heißt deshalb nicht: Prozesse steuern. Sondern: Anpassungsfähigkeit ermöglichen — bei sich selbst zuerst.</p>
+<h2 id="101-die-fünf-verschiebungen">10.1  Die fünf Verschiebungen</h2>
+<div class="table-wrap"><table><thead><tr><th><strong>Von</strong></th><th><strong>Zu</strong></th><th><strong>Konkreter Satz im Alltag</strong></th></tr></thead><tbody><tr><td>Gewissheit</td><td>Neugierde</td><td>„Ich weiß das nicht. Welche Hypothesen haben wir?&quot;</td></tr><tr><td>Kontrolle</td><td>Orchestrierung</td><td>„Wer macht hier welchen Schritt — Mensch, KI, System?&quot;</td></tr><tr><td>Expertise</td><td>Lerngeschwindigkeit</td><td>„Was haben wir diese Woche gelernt, was wir letzte Woche nicht wussten?&quot;</td></tr><tr><td>Risikovermeidung</td><td>Intelligentes Experimentieren</td><td>„Wo können wir scheitern, ohne dass es teuer wird?&quot;</td></tr><tr><td>Silo-Denken</td><td>Vernetzung</td><td>„Welche Abteilung hat ein ähnliches Problem schon gelöst?&quot;</td></tr></tbody></table></div>
+<h2 id="102-die-schwierigste-verschiebung-von-gewissheit-zu-neugierd">10.2  Die schwierigste Verschiebung: von Gewissheit zu Neugierde</h2>
+<p>Führungskräfte geben ihren Anspruch auf, immer die richtige Antwort zu haben. Sie stellen Fragen, deren Antworten sie nicht kennen. Das ist nicht Schwäche, sondern die Voraussetzung für Lernen in Organisationen, in denen das Wissen schneller veraltet als die Hierarchien.</p>
+<p>Genau hier liegt die eigentliche emotionale Arbeit. Wer 25 Jahre lang dafür bezahlt wurde, Antworten zu haben, erlebt die Umstellung auf Fragen nicht als intellektuelle Herausforderung, sondern als Identitätsverlust. Deshalb sind die emotionalen Wendungen des SHIFT-Vorworts kein Schmuck: Sie schaffen den Raum, in dem diese Umstellung überhaupt stattfinden kann.</p>
+<p><em>Aus „Ich muss das wissen&quot; wird „Ich darf das lernen.&quot;</em></p>
+<h2 id="103-sprache-und-rituale-im-führungskreis">10.3  Sprache und Rituale im Führungskreis</h2>
+<ul>
+<li>Entmoralisierte Sprache: „Versagen&quot; wird „Hypothesenprüfung&quot;, „Schuld&quot; wird „Iteration&quot;.</li>
+<li>Pre-Mortem und AAR auch im Führungskreis — nicht nur in Projektteams.</li>
+<li>Business-First-Disziplin: Führungskräfte fragen bei jedem KI-Vorschlag nach dem Business-Problem, bevor über Technologie gesprochen wird.</li>
+<li>„Nicht für einen Pitch. Für ein Gespräch.&quot; — der Leitsatz für die Kommunikation mit Mitarbeitern und externen Partnern.</li>
+</ul>
+<h2 id="104-was-das-framework-der-führung-abverlangt">10.4  Was das Framework der Führung abverlangt</h2>
+<p>Drei Dinge, die nicht delegierbar sind:</p>
+<ol>
+<li>Sponsoring je Use Case — ohne namentlich benannten Fachbereichs-Sponsor kein Start.</li>
+<li>Konsequenz bei Abbruchkriterien — wer eine Abbruchbedingung definiert und dann doch weiterführt, zerstört das Framework von innen.</li>
+<li>Persönliche Beteiligung an der AI-Literacy — Führungskräfte, die KI nicht selbst bedienen, verlieren die Autorität, sie einzuführen.</li>
+</ol>
+</section><section class="chapter"><h1 id="11-ausblick-20262028-neue-business-use-cases-durch-agentisch"><span class="chapter-number">Kapitel 11</span>Ausblick 2026–2028: Neue Business-Use-Cases durch agentische KI</h1>
+<p>Dieses Kapitel beschreibt, welche Geschäftsmöglichkeiten in den nächsten zwei bis drei Jahren entstehen — und welche technische Architektur sie tragen muss. Die Erzählung beginnt bewusst am Business und endet bei der Technik, nicht umgekehrt.</p>
+<h2 id="111-was-bisher-nicht-möglich-war-und-ab-2026-möglich-wird">11.1  Was bisher nicht möglich war und ab 2026 möglich wird</h2>
+<p>Die bisherige Phase der KI-Nutzung (2022–2024) war auf Einzelaufgaben begrenzt: Text zusammenfassen, Bild erzeugen, Code vorschlagen. KI als Werkzeug, Mensch als Dauer-Bediener.</p>
+<p><strong>Ab 2025–2026 entstehen drei neue Business-Use-Case-Klassen, die vorher nicht zugänglich waren:</strong></p>
+<p><strong>A) End-to-End-Prozesse statt Einzelschritte</strong></p>
+<p>Agentische KI kann ganze Abläufe autonom bearbeiten — eine Reklamation von Eingang bis Entscheidungsvorschlag, eine Angebotserstellung von Anfrage bis Preis-Kalkulation, ein Qualitätsaudit von Datenerhebung bis Bericht. Der Mensch bleibt in der Freigaberolle, nicht im Bedienschritt.</p>
+<p><strong>B) Selbstständige Langläufer</strong></p>
+<p>Agenten, die über Tage oder Wochen an einem Vorgang arbeiten und zwischendurch auf Zwischenstandsanfragen antworten. Beispiel: Ein Agent, der über mehrere Wochen eine Marktanalyse aufbaut, laufend neue Quellen integriert und auf Nachfrage Zwischenstände liefert.</p>
+<p><strong>C) Individualisierung in Produktions-Maßstab</strong></p>
+<p>Angebote, Schulungen, Dokumente, die für jeden Einzelfall individuell erstellt werden — in einer Menge, die bisher manuell nicht leistbar war. Beispiel: tausend individuelle Versicherungsangebote mit je passender Begründung, in Minuten statt Wochen.</p>
+<h2 id="112-was-diese-use-cases-an-architektur-brauchen">11.2  Was diese Use Cases an Architektur brauchen</h2>
+<p>Erst jetzt kommt die Technik ins Bild — als notwendige Voraussetzung für die drei beschriebenen Use-Case-Klassen.</p>
+<ul>
+<li>Universal Semantic Layer: Zugriff auf implizites Unternehmenswissen (Produktlogik, Kundenhistorie, Prozessregeln). Ohne semantische Schicht greifen Agenten ins Leere und produzieren Workslop.</li>
+<li>Model Context Protocol (MCP): Standardisierte Kommunikation zwischen Modellen, Datenbanken und Werkzeugen. Reduziert Individual-Integrationen und Anbieter-Bindung.</li>
+<li>Layering statt Replacement: Agenten werden über bestehende Kernsysteme (SAP, Salesforce, Branchen-ERP) gelegt, nicht als Ersatz. Investitionen bleiben produktiv, Risiko kalkulierbar.</li>
+<li>KI als Betriebssystem (AIOS) als Denkmodell: Das Modell übernimmt die Rolle eines Kernels — verwaltet Gedächtnis, Kontextfenster und externe Werkzeuge, orchestriert die Ausführung. Kein Produkt, ein Architekturprinzip.</li>
+</ul>
+<h2 id="113-der-workslop-effekt-und-wie-shift-ihn-adressiert">11.3  Der Workslop-Effekt und wie SHIFT ihn adressiert</h2>
+<p>Die Harvard-Studie 2025 dokumentiert: Oberflächlich fehlerfreie, aber substanzlose KI-Ergebnisse verschieben Zeit von Produktion auf Prüfung. 95 Prozent der Organisationen verzeichnen keinen messbaren ROI aus ihren KI-Einsätzen.</p>
+<p>SHIFT adressiert das an drei Stellen:</p>
+<ul>
+<li>Phase I: Human-in-the-Loop-Freigabe fängt Workslop vor der produktiven Nutzung ab.</li>
+<li>Phase F: Semantic Layer liefert die substanzielle Grundlage, ohne die Agenten Workslop erzeugen.</li>
+<li>Phase T: Messung der Fixing Time zusätzlich zur Bearbeitungszeit. Nur wenn beide sinken, liegt echte Wirkung vor.</li>
+</ul>
+<h2 id="114-der-produktivitätsnachweis">11.4  Der Produktivitätsnachweis</h2>
+<p>Bei gezielter Augmentation (Centauren-Muster: Mensch und KI in definierter Rollenteilung) belegt der Anthropic Economic Index Effekte bis zu 80 Prozent Zeitersparnis bei komplexen Aufgaben — von 4,5 Stunden auf 11 Minuten. Der Unterschied zum Workslop-Fall liegt in der Rollenteilung: Der Mensch ergänzt durch Kontext, Urteil und Entscheidung. Phase I ist im SHIFT-Framework der Ort, an dem diese Rollenteilung konkret geschnitten wird.</p>
+<h2 id="115-was-das-für-die-marke-bedeutet">11.5  Was das für die Marke bedeutet</h2>
+<p>Die Marke Mindshift KI steht an der Schwelle zu diesen neuen Use-Case-Klassen. Der Vorteil ist struktureller Natur: Während viele Wettbewerber noch im ersten Paradigma (Chat-Werkzeug) arbeiten, orientiert SHIFT die Einführung bereits auf die nächste Welle — aber aus der richtigen Richtung: vom Business-Problem zum Werkzeug. Wer die Sprache der neuen Use-Case-Klassen beherrscht UND die Business-First-Logik anwendet, ist gegenüber rein technikorientierten Beratern mehrfach im Vorteil.</p>
+<p><em>Langfristigkeit: Dieses Kapitel wird jährlich überprüft. Die Struktur des Frameworks bleibt stabil, die Use-Case-Beispiele und technischen Bausteine entwickeln sich mit der Technologie weiter.</em></p>
+</section><section class="chapter"><h1 id="12-go-to-market-und-sichtbarkeitsaufbau"><span class="chapter-number">Kapitel 12</span>Go-to-Market und Sichtbarkeitsaufbau</h1>
+<p>Wie das Angebot sichtbar wird und erste Kunden findet — ohne Referenzen, Testimonials oder Bestandsmärkte.</p>
+<h2 id="121-prinzipien">12.1  Prinzipien</h2>
+<ul>
+<li>Glaubwürdigkeit über Forschung, eigene Praxis und nachvollziehbares Framework.</li>
+<li>Erkennbare Position bei einer begrenzten Zielgruppe — vor maximaler Reichweite.</li>
+<li>„Helfen und Dienen&quot;: Jeder Beitrag liefert Nutzwert. Kein Content, der nichts sagt.</li>
+<li>Substanz vor Sichtbarkeit.</li>
+<li>„Nicht für einen Pitch. Für ein Gespräch.&quot; — der Tenor jeder Kontaktaufnahme.</li>
+</ul>
+<h2 id="122-drei-säulen">12.2  Drei Säulen</h2>
+<div class="table-wrap"><table><thead><tr><th><strong>Säule</strong></th><th><strong>Zweck</strong></th><th><strong>Kern-Asset</strong></th></tr></thead><tbody><tr><td>Substanz</td><td>Glaubwürdigkeit</td><td>Buch + Whitepaper-Reihe + Fachartikel</td></tr><tr><td>Reichweite</td><td>Sichtbarkeit</td><td>LinkedIn + Keynote + Newsletter + PR</td></tr><tr><td>Konversion</td><td>Erstgespräch</td><td>Online-Vor-Assessment + P1 + P7</td></tr></tbody></table></div>
+<h2 id="123-substanz">12.3  Substanz</h2>
+<ul>
+<li>Buch (Arbeitstitel „SHIFT — KI-Einführungen, die ankommen&quot;): zentrales Glaubwürdigkeits-Artefakt. Verlagspräferenz: Campus, Haufe, GABAL, Springer Gabler.</li>
+<li>Whitepaper-Reihe (drei Titel): „Die fünf Phasen&quot;, „Der EU AI Act in fünf Phasen&quot;, „Use-Case-Bewertung nach Business-First-Logik&quot;.</li>
+<li>Fachartikel und Podcast-Gastauftritte: 12 Platzierungen in 12 Monaten.</li>
+</ul>
+<h2 id="124-reichweite">12.4  Reichweite</h2>
+<ul>
+<li>LinkedIn: rollenspezifische Ansprache, Hooks aus der Angst-Sprache des Vorworts, Kommentare als Qualitätsmaßstab, Interview-Format für die Produktion.</li>
+<li>Keynote-Format nach neun Schritten (Geisselhart): frei sprechen, Authentizität, starker Einstieg, Publikumsinteraktion, Mehrwert, Storytelling, konkretes Angebot, Bewegung, einprägsamer Ausstieg.</li>
+<li>Newsletter monatlich.</li>
+<li>PR: 10–15 Journalistenkontakte, Whitepaper als Unterfütterung.</li>
+</ul>
+<h2 id="125-konversion">12.5  Konversion</h2>
+<ul>
+<li>Einstieg über P1 (Assessment) oder P7 (Keynote).</li>
+<li>Online-Vor-Assessment (15–20 Fragen, Kurzbericht).</li>
+<li>Funnel-Automatisierung mit eigenen KI-Werkzeugen — zugleich Referenz der eigenen Praxis.</li>
+<li>Erstgespräch 45–60 Minuten, Ziel: fachliche Einordnung, nicht Abschluss.</li>
+</ul>
+</section><section class="chapter"><h1 id="13-häufige-fehler-und-wie-das-framework-sie-adressiert"><span class="chapter-number">Kapitel 13</span>Häufige Fehler und wie das Framework sie adressiert</h1>
+<div class="table-wrap"><table><thead><tr><th><strong>Häufiger Fehler</strong></th><th><strong>Symptom</strong></th><th><strong>SHIFT-Gegenmittel</strong></th></tr></thead><tbody><tr><td>Technology Push</td><td>Tool ohne Problem</td><td>Phase S beginnt mit Pain Point, nicht mit Werkzeug</td></tr><tr><td>Fehlender Sponsor</td><td>Pilot ohne Verantwortlichen</td><td>Joint Ownership ist Startvoraussetzung</td></tr><tr><td>Pilothölle</td><td>Piloten werden nie produktiv</td><td>Phase I schneidet Prozesse um, nicht Phase H</td></tr><tr><td>Angst-Zensur</td><td>Schein-Akzeptanz</td><td>Angst-Kartografie in Phase S, entmoralisierte Sprache</td></tr><tr><td>Workslop</td><td>Nachbearbeitung frisst Zeitersparnis</td><td>Fixing-Time-Messung in Phase T, Semantic Layer in F</td></tr><tr><td>Tool-Wildwuchs</td><td>Mehr Werkzeuge, weniger Wirkung</td><td>Phase F reduziert konsequent</td></tr><tr><td>Fehlende Reinforcement</td><td>Rückfall in alte Muster</td><td>Rituale in Phase T, Prompt-Gipfel, Reverse Mentoring</td></tr><tr><td>Compliance als Nachgang</td><td>EU-AI-Act-Überraschung</td><td>Phasenbegleitende Mapping-Logik (Kap. 7)</td></tr><tr><td>Identität wird übergangen</td><td>Stiller Widerstand in Phase I</td><td>Identitäts-Gespräche, Rollen-Umbenennung</td></tr><tr><td>Gate übersprungen</td><td>Fehler akkumulieren sich</td><td>Kein Überspringen, nur Teil-Gates mit Auflage</td></tr></tbody></table></div>
+</section><section class="chapter"><h1 id="14-bezug-zur-marke-mindshift-ai-consultants"><span class="chapter-number">Kapitel 14</span>Bezug zur Marke Mindshift KI</h1>
+<p>Das SHIFT-Framework ist der inhaltliche Kern der Marke.</p>
+<ul>
+<li>Mindshift — Veränderung auf der menschlichen Ebene.</li>
+<li>AI Consultants — Arbeit auf der technischen Ebene.</li>
+<li>Business vor Technik — die verbindende Logik.</li>
+</ul>
+<h2 id="141-marktlücke-und-positionierungsmechanismus">14.1  Marktlücke und Positionierungsmechanismus</h2>
+<p>Keine Person im deutschsprachigen Raum liefert Mindset-Arbeit und KI-Implementierung konsequent aus einer Hand — und mit Business-First-Disziplin. Positionierung nach Pole-Position-Prinzip (Hermann Scherer): nicht das größte Angebot, sondern das am klarsten erkennbare. Ziel: Sog, nicht Akquise.</p>
+<h2 id="142-claim">14.2  Claim</h2>
+<p><em>Der einzige Berater im deutschsprachigen Raum, der Mindset-Arbeit und KI-Umsetzung persönlich aus einer Hand liefert — ohne Team, ohne Schnittstellen — und jede KI-Einführung konsequent am Geschäftsproblem beginnt.</em></p>
+<h2 id="143-sprache-und-haltung">14.3  Sprache und Haltung</h2>
+<p>SHIFT ist ein Framework, aber es wird nicht wie ein Framework verkauft. Die Einladung kommt vor dem Argument. Die Angst wird benannt, bevor die Methode erklärt wird. Der Mut wird gestärkt, bevor der nächste Schritt verlangt wird. Diese Reihenfolge ist kein Stil, sondern Methode — sie öffnet die Gespräche, in denen SHIFT überhaupt wirken kann.</p>
+<p><em>Nicht für einen Pitch. Für ein Gespräch.</em></p>
+<h2 id="144-internationale-referenzpunkte">14.4  Internationale Referenzpunkte</h2>
+<ul>
+<li>Matt Britton (USA): Builder-Strategist-Prinzip.</li>
+<li>Paul Gibbons (USA/UK): People-first AI Adoption.</li>
+<li>Charlene Li (USA): 90-Day Blueprint.</li>
+<li>Nick Jankel (UK): Bio-Transformation.</li>
+</ul>
+<h2 id="145-wissenschaftliche-verankerung">14.5  Wissenschaftliche Verankerung</h2>
+<ul>
+<li>Amy Edmondson (Harvard): Psychological Safety.</li>
+<li>Paul Leonardi (Harvard / UCSB): Developing a Digital Mindset.</li>
+<li>Prosci ADKAR: Reinforcement.</li>
+<li>Hampel (2025): Neue Fehlerkultur.</li>
+<li>KPMG, EY, Agility at Scale: Use-Case-Priorisierung und Business-First-Frameworks.</li>
+<li>Anthropic Economic Index (2025): Produktivitätsnachweis Centauren-Muster.</li>
+</ul>
+<h2 id="146-was-das-framework-leistet">14.6  Was das Framework leistet</h2>
+<ul>
+<li>Ein erinnerbares Akronym, nicht mit ADKAR verwechselbar.</li>
+<li>Eine belegte Struktur, die mit Business-First-Logik die größte Schwäche der KI-Beratungspraxis adressiert.</li>
+<li>Eine Grundlage für Content über mehrere Jahre.</li>
+<li>Ein klarer Unterschied zu bestehenden Wettbewerbern in der Ausführung.</li>
+<li>Eine Sprache, die die Zielgruppe nicht beeindrucken, sondern mitnehmen will.</li>
+</ul>
+</section><section class="chapter"><h1 id="15-offene-punkte-und-weiterentwicklung"><span class="chapter-number">Kapitel 15</span>Offene Punkte und Weiterentwicklung</h1>
+<p>Das Framework ist stabil. Die Umsetzungs-Assets werden laufend erweitert:</p>
+<ul>
+<li>Buchtitel und Verlagsauswahl.</li>
+<li>Umsetzung des Online-Assessments als eigenständiges Werkzeug, insbesondere der Vier-Dimensionen-Bewertung.</li>
+<li>Jahresredaktionsplan für Newsletter, LinkedIn, Whitepaper.</li>
+<li>Journalistenverteiler und erste Themenangebote.</li>
+<li>Vertragsvorlagen für P1–P7 inkl. Gate-Ergebnisse als Abnahmekriterien.</li>
+<li>Vertragsklauseln für erfolgsabhängige Modelle.</li>
+<li>Pilot-Auditierung im ersten Praxisprojekt.</li>
+<li>Branchenvertiefungen mit branchentypischen Use-Case-Katalogen.</li>
+<li>Keynote-Repertoire: drei bis fünf Varianten (45 / 60 / 90 min, Workshop-Einstieg).</li>
+<li>Referenz-Architektur für Semantic Layer und MCP als Demo-Asset.</li>
+<li>Fixing-Time-Messverfahren standardisieren.</li>
+<li>Use-Case-Katalog (Anhang A) laufend erweitern und branchenspezifisch gewichten.</li>
+</ul>
+<p><strong>Hinweis zu Referenzen</strong></p>
+<p>Das Geschäftsmodell startet neu. Glaubwürdigkeit in der Startphase entsteht:</p>
+<ul>
+<li>Über Forschung (belegte Zahlen).</li>
+<li>Über eigene Praxis (eigene Arbeitsprozesse als Vitrine).</li>
+<li>Über das Framework selbst.</li>
+<li>Über erste Pilotprojekte mit Gate-Protokollen als spätere Fallstudien.</li>
+</ul>
+</section><section class="chapter"><h1 id="anhang-a-use-case-katalog-30-wiederkehrende-fälle">Anhang A: Use-Case-Katalog — 30 wiederkehrende Fälle</h1>
+<p>Dieser Katalog ist ein Beschleuniger für Phase S. Er ersetzt keine Pain-Point-Workshops, aber er gibt eine Ausgangsliste, an der sich Fachbereichsleiter orientieren können. Alle Fälle sind dreifach kategorisiert (Fehlervermeidung/QS, Zeitersparnis/Effizienz, Vorhersage/Wettbewerbsvorteil) und mit typischem Hebel versehen.</p>
+<div class="table-wrap"><table><thead><tr><th><strong>#</strong></th><th><strong>Use Case</strong></th><th><strong>Kategorie</strong></th><th><strong>Bereich</strong></th><th><strong>Typischer Hebel</strong></th></tr></thead><tbody><tr><td>1</td><td>Angebotserstellung auf Basis Kundenhistorie</td><td>Zeitersparnis</td><td>Vertrieb</td><td>Durchlaufzeit −60 %, Abschlussquote +10 %</td></tr><tr><td>2</td><td>Ausschreibungsprüfung (Eignungs- / Zuschlagskriterien)</td><td>Fehlervermeidung</td><td>Einkauf / Vertrieb</td><td>Vermiedene Ausschluss-Fehler, Zeit −70 %</td></tr><tr><td>3</td><td>Rechnungsfreigabe und Abweichungs-Alarm</td><td>Fehlervermeidung</td><td>Finanzen</td><td>Durchlaufzeit −50 %, Fehlerquote −80 %</td></tr><tr><td>4</td><td>Reklamationsbearbeitung End-to-End</td><td>Zeitersparnis</td><td>Service</td><td>Durchlaufzeit −70 %, CSAT +15 %</td></tr><tr><td>5</td><td>Technische Dokumentation aus Engineering-Daten</td><td>Zeitersparnis</td><td>Engineering</td><td>Zeit −60 %, Konsistenz +++</td></tr><tr><td>6</td><td>Vertragsprüfung (Risiko-Klauseln)</td><td>Fehlervermeidung</td><td>Legal</td><td>Review-Zeit −65 %</td></tr><tr><td>7</td><td>Lieferantenbewertung aus unstrukturierten Quellen</td><td>Vorhersage</td><td>Einkauf</td><td>Risiko-Früherkennung, Marge +2–4 %</td></tr><tr><td>8</td><td>Predictive Maintenance Maschinenpark</td><td>Vorhersage</td><td>Produktion</td><td>Stillstand −30 %, Wartungskosten −20 %</td></tr><tr><td>9</td><td>Qualitätskontrolle Bild-/Video-gestützt</td><td>Fehlervermeidung</td><td>Produktion</td><td>Ausschuss −40 %</td></tr><tr><td>10</td><td>Absatzprognose auf Wochenbasis</td><td>Vorhersage</td><td>Supply Chain</td><td>Lager −15 %, OOS −25 %</td></tr><tr><td>11</td><td>Preisoptimierung dynamisch</td><td>Vorhersage</td><td>Pricing</td><td>Marge +1–3 %</td></tr><tr><td>12</td><td>Kundensegmentierung für Kampagnen</td><td>Vorhersage</td><td>Marketing</td><td>Conversion +15–30 %</td></tr><tr><td>13</td><td>Content-Produktion mit Markenleitplanken</td><td>Zeitersparnis</td><td>Marketing</td><td>Output 3–5x, Qualität stabil</td></tr><tr><td>14</td><td>HR-Screening Vorauswahl (AI-Act Art. 6 beachten)</td><td>Zeitersparnis</td><td>HR</td><td>Screening-Zeit −70 %, Bias-Kontrolle Pflicht</td></tr><tr><td>15</td><td>Onboarding-Dokumente individualisiert</td><td>Zeitersparnis</td><td>HR</td><td>Zeit bis Produktivität −20 %</td></tr><tr><td>16</td><td>Mitarbeiter-Wissensassistent</td><td>Zeitersparnis</td><td>Querschnitt</td><td>Anfragen-Zeit −60 %</td></tr><tr><td>17</td><td>Interne FAQ-Automation</td><td>Zeitersparnis</td><td>IT / HR</td><td>Ticket-Volumen −30–50 %</td></tr><tr><td>18</td><td>Betrugserkennung Transaktionen</td><td>Fehlervermeidung</td><td>Finanzen</td><td>Fraud-Quote −40 %</td></tr><tr><td>19</td><td>KYC-Prozess beschleunigen</td><td>Zeitersparnis</td><td>Finanzen</td><td>Durchlaufzeit −60 %</td></tr><tr><td>20</td><td>Meetings zusammenfassen + Aktionspunkte</td><td>Zeitersparnis</td><td>Querschnitt</td><td>Nachbereitungszeit −80 %</td></tr><tr><td>21</td><td>Marktanalyse als Agenten-Langläufer</td><td>Vorhersage</td><td>Strategie</td><td>Tiefe +++, Aktualität wöchentlich</td></tr><tr><td>22</td><td>Compliance-Monitoring Richtlinien-Änderungen</td><td>Fehlervermeidung</td><td>Legal / Compliance</td><td>Time-to-Comply −50 %</td></tr><tr><td>23</td><td>Training individualisierter Lernpfade</td><td>Zeitersparnis</td><td>HR / L&amp;D</td><td>Abschlussquote +25 %</td></tr><tr><td>24</td><td>Vertriebs-Coaching mit Call-Analyse</td><td>Vorhersage</td><td>Vertrieb</td><td>Abschlussquote +10 %, Cycle-Time −15 %</td></tr><tr><td>25</td><td>Ticket-Routing und Priorisierung</td><td>Zeitersparnis</td><td>Service / IT</td><td>Erstlösung +20 %</td></tr><tr><td>26</td><td>Code-Assistenz Development</td><td>Zeitersparnis</td><td>IT</td><td>Lieferzeit −25–40 %</td></tr><tr><td>27</td><td>Test-Case-Generierung</td><td>Fehlervermeidung</td><td>IT / QA</td><td>Testabdeckung +30 %</td></tr><tr><td>28</td><td>Versicherungsangebot individualisiert</td><td>Zeitersparnis</td><td>Versicherung</td><td>Angebotsquote 5–10x</td></tr><tr><td>29</td><td>Medizinische Vorbefundung (Hochrisiko, Art. 6)</td><td>Fehlervermeidung</td><td>Healthcare</td><td>Nur unter strenger Aufsicht, Zeit −40 %</td></tr><tr><td>30</td><td>ESG-Reporting-Aufbereitung</td><td>Zeitersparnis</td><td>Sustainability</td><td>Reportzeit −60 %</td></tr></tbody></table></div>
+<p><em>Verwendung: In Phase S wird der Katalog als Startpunkt für Pain-Point-Workshops eingesetzt. Fachbereichsleiter bestätigen, präzisieren oder verwerfen die Fälle. Nicht jeder Fall passt zu jeder Organisation — aber jeder Fall provoziert eine ehrliche Antwort auf die Frage: Gibt es das bei uns auch? Das Ergebnis ist in aller Regel eine Mischung aus Katalog-Fällen und organisationsspezifischen Fällen.</em></p>
+</section><section class="chapter"><h1 id="anhang-b-gate-artefakte-im-überblick">Anhang B: Gate-Artefakte im Überblick</h1>
+<h2 id="b1-artefakte-phase-s">B.1  Artefakte Phase S</h2>
+<ul>
+<li>Use-Case-Liste (priorisiert, Vier-Dimensionen-bewertet, quantifiziert)</li>
+<li>Impact/Effort-Matrix</li>
+<li>Mindset-Lagebericht mit Angst-Kartografie</li>
+<li>Daten-Audit je geplantem Use Case</li>
+<li>KI-Inventar mit Risikokategorisierung (Art. 6 + Anhang III)</li>
+<li>Schatten-KI-Bericht</li>
+</ul>
+<h2 id="b2-artefakte-phase-h">B.2  Artefakte Phase H</h2>
+<ul>
+<li>Pilot-Charta je Pilot (Sponsor, Null-Hypothese, Abbruchkriterien, Messlogik)</li>
+<li>Pilot-Auswertung (Ergebnis, Entscheidung, nächste Schritte)</li>
+<li>Prompt-Tagebücher</li>
+<li>Pre-Mortem-Protokolle</li>
+<li>After-Action-Review-Protokolle</li>
+<li>AI-Literacy-Nachweis (Art. 4)</li>
+</ul>
+<h2 id="b3-artefakte-phase-i">B.3  Artefakte Phase I</h2>
+<ul>
+<li>Soll-Prozess je Kernanwendungsfall (BPMN oder einfacher Fluss)</li>
+<li>Rollendefinitionen alt/neu</li>
+<li>HITL-Spezifikation (wo, was, durch wen)</li>
+<li>Nutzungsanweisungen (Art. 13)</li>
+<li>Identitäts-Gesprächsprotokolle (anonymisiert, thematisch zusammengefasst)</li>
+<li>Kennzeichnungs-Konzept (Art. 50)</li>
+</ul>
+<h2 id="b4-artefakte-phase-f">B.4  Artefakte Phase F</h2>
+<ul>
+<li>Tool-Konsolidierungsbericht (abgeschaltet, behalten, neu)</li>
+<li>Governance-Charta mit Gremien und Entscheidungswegen</li>
+<li>MLOps-Referenzarchitektur</li>
+<li>Policy-as-Code-Regelwerk</li>
+<li>Semantic-Layer-Architektur (sofern nötig)</li>
+<li>Konformitätserklärung (sofern Hochrisiko)</li>
+</ul>
+<h2 id="b5-artefakte-phase-t">B.5  Artefakte Phase T</h2>
+<ul>
+<li>Wirkungs-Dashboard (EUR-Wert, Durchlaufzeit, Qualitätsquote, Nutzungsrate, Fixing Time)</li>
+<li>Monatsbericht mit Baseline-Vergleich</li>
+<li>Change-Prozess für Modelle, Prompts, Regeln</li>
+<li>Post-Market-Monitoring-Protokolle (Art. 72)</li>
+<li>Vorfall-Meldeprozess (Art. 73)</li>
+<li>Ritual-Nachweise (Quartals-Prompt-Gipfel, Reverse Mentoring)</li>
+</ul>
+</section><section class="chapter"><h1 id="anhang-c-wesentliche-quellen">Anhang C: Wesentliche Quellen</h1>
+<h2 id="c1-notebooks-und-recherche-basis">C.1  Notebooks und Recherche-Basis</h2>
+<ul>
+<li>Digitales Mindset und KI — 142 Quellen.</li>
+<li>Experten-Positionierung — 34 Quellen.</li>
+<li>AI Product Development: Expert Frameworks and Positioning Strategy.</li>
+<li>Strategischer Business Aufbau — 58 Quellen.</li>
+<li>Experte-Geisselhardt — 38 Quellen.</li>
+<li>Buchsammlung (Hampel: Neue Fehlerkultur, 11/2025).</li>
+<li>KI-2026 — 32 Quellen zu AIOS, Agentic AI, EU AI Act 2026, Anthropic Economic Index.</li>
+<li>Experte-Christiani — 23 Quellen zu StoryMarketing.</li>
+<li>Experte-Bischoff — 43 Quellen zu Mindset-Ansprache.</li>
+<li>Experten-KI-Business-Adoption — 43 Quellen zu Demand Pull, Use-Case-Priorisierung, KPMG, EY.</li>
+<li>Experte-Kass — 43 Quellen zu KI, Augmentation, Führung und Zukunft der Arbeit (Zack Kass, ehem. Head of Go-to-Market, OpenAI).</li>
+</ul>
+<h2 id="c2-studien">C.2  Studien</h2>
+<ul>
+<li>McKinsey 2025; BCG 2025; Deloitte; IDC; Gartner; Prosci; RAND; Bitkom; BDU.</li>
+<li>Harvard 2025: AI Workslop.</li>
+<li>Anthropic Economic Index (2025): bis zu 80 Prozent Zeitersparnis bei Centauren-Mustern.</li>
+<li>AIDOLS, Abbacus Technologies: KI-Beratungshonorare.</li>
+</ul>
+<h2 id="c3-frameworks-und-methoden">C.3  Frameworks und Methoden</h2>
+<ul>
+<li>Business First, Technology Follows: Demand Pull, Pain-Point-Analyse, Impact/Effort-Matrix, Weighted Scoring, 4-Dimensionen-Bewertung.</li>
+<li>Use-Case-Kategorien: Fehlervermeidung/QS, Zeitersparnis/Effizienz, Wettbewerbsvorteil durch Vorhersagen.</li>
+<li>Paul Leonardi: Digital Mindset.</li>
+<li>Amy Edmondson: Psychological Safety.</li>
+<li>Stanford / Carol Dweck: Growth Mindset.</li>
+<li>FERC-Modell; Technology Acceptance Model (TAM).</li>
+<li>triangility 6 Dimensionen; KPMG Digital Mindset; Forbes 5 Leadership Mindset Shifts.</li>
+<li>Hampel 2025: Neue Fehlerkultur, Pre-Mortem, AAR.</li>
+<li>Hermann Scherer: Pole Position. Oliver Geisselhart: Keynote-Aufbau.</li>
+</ul>
+<h2 id="c4-preismodelle">C.4  Preismodelle</h2>
+<ul>
+<li>Outcome-based, Value-based, Success-based Pricing (Hormozi, Brunson).</li>
+</ul>
+<h2 id="c5-regulatorik">C.5  Regulatorik</h2>
+<ul>
+<li>EU AI Act 2024/1689: Art. 4, 5, 9, 10, 11, 13, 14, 43, 50, 72, 73.</li>
+<li>DSGVO. BaFin MaRisk, DORA, GxP.</li>
+</ul>
+<h2 id="c6-marktspezifisch">C.6  Marktspezifisch</h2>
+<ul>
+<li>Wettbewerbsanalyse Mindshift AI vom 07.04.2026.</li>
+<li>Internationale Referenzen: Britton, Gibbons, Li, Jankel, Bersin, McGowan.</li>
+</ul>
+<p><em>Stand: 22. April 2026.  ·  Dirk Brusch  ·  Mindshift KI</em></p></section>
+<div class="signature">Dirk Brusch · Mindshift KI · mindshift-ai-consultants.de</div>
+</main>
+</body>
+</html>
